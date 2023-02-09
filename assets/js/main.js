@@ -89,7 +89,19 @@ $(document).ready(() => {
     }
 });
 
- 
+$(document).ready(() => {
+   $('.close-btn').click(()=>{
+    $('.sent-form-det').css('display', 'none')
+    $('.send-btn-active').css('display', 'flex');
+   })
+});
+$(document).ready(() => {
+  $('.send-btn-active').click(()=>{
+   $('.sent-form-det').css('display', 'flex');
+   $('.send-btn-active').css('display', 'none');
+  })
+});
+
  
 
  
