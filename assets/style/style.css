@@ -454,6 +454,9 @@
    flex-direction: column;
    gap: 30px;
  }
+ .f-logo{
+  width: fit-content;
+ }
  .footer-logo-box .text{
    max-height: 88px;
    overflow: hidden;
@@ -484,6 +487,8 @@
  }
  .footer-contact-info ul li{
    list-style: none;
+   width: fit-content;
+
  }
  .footer-contact-info ul li a{
    font-size: 18px;
@@ -491,6 +496,7 @@
    color: #606060;
    font-family: 'BPG DejaVuSans';
    transition: 0.3s;
+   width: fit-content;
  }
  .footer-contact-info ul li:hover a{
    text-decoration: underline;
@@ -504,6 +510,7 @@
  }
  .footer-links ul li{
    list-style: none;
+   width: fit-content;
  }
  .footer-links ul li a{
    font-size: 18px;
@@ -1087,4 +1094,107 @@
 /* About us section */
 
  
+
+/* About Page */
+.about-page-section_00{
+  padding-top: 80px;
+  background: rgba(248, 248, 248, 0.86);
+}
+.about-page-title{
+  opacity: 0;
+}
+.about-page-text-side{
+  padding-bottom: 50px;
+}
+.about-content-text{
+  width: 90%;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'BPG DejaVuSans';
+  color: #606060;
+}
+.brc-cont{
+  width: 100%;
+  margin: 30px 0;
+  display: flex; 
+  gap: 10px;
+}
+.brc-cont a{
+  color: #29607E;
+  font-size: 18px;
+  font-family: 'BPG DejaVuSans'; 
+}
+.brc-cont a.active-brc{
+  color: #E5BC62;
+}
+.another-page-header{
+  width: 100%;
+  height: initial;
+}
+.another-page-header::before{
+  display: none;
+}
+.header-box{
+  background: rgba(72, 133, 152, 0.8); 
+  top: 35px;
+  transition: 0.3s; 
+}
+.header_01{
+  padding: 0;
+  height: 130px;
+}
+.right-header-nav-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+ 
+.nav-box ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-box ul li{
+  list-style: none;
+  width: fit-content;
+}
+.nav-box ul li a{
+  color: #fff;
+  font-family: 'BPG DejaVuSans';
+  font-size: 18px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.nav-box ul li a:after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: 0.3s;
+}
+.nav-box ul li:hover a:after,
+.nav-box ul li.active a:after{
+  width: 102%;
+}
+
+/* About Page */
+/* Banner */
+  ._banner{
+    width: 100%;
+  }
+  ._banner-img{
+    width: 100%;
+    height: 730px;
+  }
+  ._banner-img img{
+    width: 100%;
+    height: 100%; 
+  }
+/* Banner */
 

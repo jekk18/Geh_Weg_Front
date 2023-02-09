@@ -67,6 +67,12 @@ $(window).scroll(() => {
     }else{
         $( ".header-1-box" ).removeClass('scroll-header-class');
     }
+    
+    if(scrollY >= 35){
+      $( ".header-box" ).css('top', '0px');;
+    }else{
+      $( ".header-box" ).css('top', '35px');;
+    }
 });
 
 $(document).ready(() => {
@@ -74,6 +80,12 @@ $(document).ready(() => {
         $( ".header-1-box" ).addClass('scroll-header-class');
     }else{
         $( ".header-1-box" ).removeClass('scroll-header-class');
+    }
+
+    if(scrollY >= 35){
+      $( ".header-box" ).css('top', '0px'); 
+    }else{
+      $( ".header-box" ).css('top', '35px');
     }
 });
 
