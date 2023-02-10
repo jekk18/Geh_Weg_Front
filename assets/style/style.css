@@ -1586,14 +1586,17 @@
   display: flex;
   gap: 20px;
 }
-.socials a:nth-child(2){
+.socials a{
   width: 50px;
-  height: 52px;
-  background: #E5BC62;
-  border-radius: 2px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.socials a:nth-child(2){ 
+  background: #E5BC62; 
 }
 .v-det-right{
   width: 100%;
@@ -1761,5 +1764,32 @@
 }
 /* Vacancy det */
 
+/* Programs - det  */
+.programs-det-padd{
+  padding-bottom: 100px;
+}
+.send-btn-active_2{  
+  background: #05638B;  
+}
+.send-btn-active_2:hover{
+  background: #E5BC62; 
+}
+.sent-form-det-2{
+  background: #05638B;
+}
+.vacancy-det-box .sent-form-det-2 h1{
+  color: #fff;
+}
+.sent-form-det-2 .upload-files button{
+  color: #05638B;
+}
+.sent-form-det-2 .upload-files button:hover{
+  background-color: #E5BC62;
+  color: #fff;
+}
+.programs-det-padd .v-det-right::after{
+  background-color: #E5BC62;
+}
+/* Programs - det  */
 
 
