@@ -101,6 +101,15 @@ $(document).ready(() => {
    $('.send-btn-active').css('display', 'none');
   })
 });
+  
+
+$(document).ready(()=> {
+  $('.upload-file-input').change(()=>{ 
+    var inpSplit = $('.upload-file-input').val().split('\\'); 
+    var index = inpSplit.length - 1;  
+    $('.file-text').html(inpSplit[index])
+  })
+})
 
  
 
