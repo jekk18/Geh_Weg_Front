@@ -1,0 +1,447 @@
+@media (max-width: 1638px){
+    .home_page_header{
+        height: 980px;
+    }
+    .home-banner-image{
+        height: 760px;
+    }
+    .home-banner-nav { 
+        top: 80px;
+    }
+    .program-item{
+        height: 600px;
+    }
+    .p-text-icon{
+        width: 120px;
+        height: 120px;
+    }
+    .program-text{
+        padding: 0 34px;
+    }
+    .program-text h2 {  
+        margin-top: 40px;
+        margin-bottom: 20px; 
+        font-size: 24px;
+    }
+    .program-text .text{
+        max-height: 195px;
+        margin-bottom: 35px;
+    }
+    .hover-title{
+        font-size: 26px;
+    }
+    .vacancy-context h1{
+        font-size: 24px;
+    }
+    .vacancy-context .text{
+        margin-bottom: 30px;
+    }
+    .vacancy-ul{
+        gap: 15px 30px;
+    }
+    .vacancy-li{
+        gap: 20px;
+    }
+    .vacancy-context { 
+        padding: 30px 40px 40px 40px; 
+    }
+    .vacancy-right-img { 
+        height: 400px; 
+    }
+    .vacancy-section{
+        height: 1000px;
+    }
+    .vacancy-cont { 
+        top: 95px; 
+    } 
+    .important-title img {
+        width: 115px;
+        height: 100px;
+    }
+    .important-title h1{
+        font-size: 30px;
+    }
+    .vacancy-item {
+        padding: 26px;
+        padding-left: 50px;
+    }
+    .vacancy-type-list{
+        padding-right: 12%;
+    }
+    .__about-left-image-box{
+        height: 700px;
+    }
+    .__left-about-text { 
+        width: 530px; 
+    }
+    .right-about-box{
+        height: 770px;
+    }
+    .about-form input{
+        width: 440px;
+    }
+}
+
+@media (max-width: 1400px){
+    .home_page_header {
+        height: 850px;
+    }
+    .home-banner-image {
+        height: 630px;
+    }
+    .home-a { 
+        padding: 20px 0;  
+        padding-left: 40px;  
+        font-size: 22px;
+        line-height: 28px; 
+    }
+    .home-li { 
+        width: 450px;
+    }
+    .home-banner-nav {
+        top: 60px;
+    }
+    .home-banner-text { 
+        max-width: 700px;
+        height: 180px;
+        padding: 40px 40px; 
+        left: 9%; 
+    } 
+    .home-banner-text .text {
+        font-size: 21px;
+        line-height: 32px; 
+    }
+    .programs-box{
+        gap: 20px;
+    }
+    .program-item {
+        height: 500px;
+        width: calc((100% / 4) - 15px);
+    }
+    .p-text-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .program-text {
+        padding: 0px 20px;
+    }
+    .hover-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .program-text h2 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .program-text .text { 
+        margin-bottom: 25px;
+    }
+    .programs-section { 
+        padding-bottom: 100px;
+    }
+    .vacancy-section { 
+        height: 860px;
+        background-size: 900px; 
+    }
+    .vacancy-blur{
+        height: 860px;
+        width: 900px;
+    }
+    .vacancy-cont {
+        top: 65px;
+    } 
+    .important-title img {
+        width: 100px;
+        height: 80px;
+    }
+    .important-title h1 {
+        font-size: 28px;
+    }
+    .vacancy-right-img {
+        height: 314px;
+    }
+    .vacancy-li{
+        align-items: initial; 
+        width: calc((100% / 2) - 10px);
+    } 
+    .vacancy-context {
+        padding: 30px 30px 30px 30px; 
+    }
+    .vacancy-ul {
+        gap: 15px 20px;
+    }
+    .vacancy-li a {
+        font-size: 14px;
+    }
+    .icon-vacancy{
+        width: 76px;
+        height: 76px;
+    }
+    .vacancy-item span{
+        font-size: 20px;
+    }
+    .vacancy-item {
+        padding: 20px;
+        padding-left: 40px;
+    }
+    .__about-left-image-box {
+        height: 600px;
+    }
+    .__left-about-text { 
+        padding: 36px 36px 32px 36px;
+        width: 420px; 
+    }
+    .right-about-box {
+        height: 670px;
+    }
+    .about-subscribe-box h2{
+        font-size: 22px;
+    }
+    .about-subscribe-box{
+        top: 230px;
+    }
+    .about-form input {
+        width: 370px;
+    }
+    .slider-img {
+        width: 119px;
+        height: 119px; 
+    }
+    .left-arrow, .right-arrow{
+        width: 90px;
+        height: 90px;
+    }
+    .f-logo {
+        width: 160px;
+        height: 80px;
+    }
+    .f-logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-socails { 
+        gap: 8px;
+    }
+}
+
+@media (max-width: 1200px){
+    .home_page_header {
+        height: 750px;
+    }
+    .programs-box{
+        justify-content: center;
+    }
+    .program-item{
+        width: calc((80% / 2) - 15px);
+    }
+    .home-banner-image {
+        height: 540px;
+    }
+    .home-ul{
+        margin: 0;
+    }
+    .home-banner-nav {
+        top: 40px;
+    }
+    .home-a{
+        padding: 16px 0;
+        padding-left: 30px;
+    }
+    .icon-vacancy {
+        width: 66px;
+        height: 66px;
+    }
+    .vacancy-item {
+        padding: 16px; 
+        padding-left: 40px;
+    }
+    .vacancy-section{
+        background-size: 100%;
+        height: 780px;
+    }
+    .vacancy-blur { 
+        width: 100%;
+        height: 780px;
+    }
+    .vacancy-time-box { 
+        padding: 18px 50px 18px 26px; 
+        font-size: 16px; 
+    }
+    .vacancy-context {
+        padding: 25px 25px 20px 25px;
+    }
+    .vacancy-context h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .vacancy-type-list {
+        padding-right: 10%;
+        gap: 28px;
+    }
+    .vacancy-context .text {
+        margin-bottom: 20px;
+        max-height: 26px;
+        line-height: 24px;
+    }
+    .vacancy-dots{
+        margin: 0;
+    }
+    .vacancy-right-img {
+        height: 244px;
+    }
+    .see-all-link a{
+        color: #fff;
+    }
+    .important-title h1 {
+        font-size: 26px;
+    }
+    .__about-left-image-box {
+        height: 500px;
+    }
+    .right-about-box {
+        height: 570px;
+    } 
+    .__left-about-text h1 {
+        font-size: 22px; 
+        margin-bottom: 15px;
+    }
+    .__left-about-text {
+        padding: 30px 30px 30px 30px;
+        width: 380px;
+    }
+    .__left-about-text .text { 
+        margin-bottom: 25px;
+    }
+    .about-form input {
+        width: 320px;
+        height: 60px;
+        padding-right: 60px;
+    }
+    .about-form button { 
+        width: 60px;
+        height: 60px; 
+    }
+    .footer-contact-info ul li a,
+    .footer-links ul li a{
+        font-size: 16px;
+    }
+    .footer-message-box .text,
+    .footer-logo-box .text{
+        font-size: 16px;
+    }
+    /* .hidden-responsive-footer{
+        display: none;
+    } */
+    .f-soc-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .icon-mail {
+        font-size: 12px; 
+    }
+    .icon-fb {
+        font-size: 18px; 
+    }
+    .icon-instagram {
+        font-size: 18px; 
+    }
+    .footer-box { 
+        padding: 80px 0; 
+    }
+    .footer-a {
+        padding: 10px 16px; 
+        border-radius: 8px;
+        font-size: 14px;  
+    }
+    .footer-contact-info{
+        gap: 20px;
+    }
+    .footer-links ul{
+        gap: 18px;
+    }
+}
+
+@media (max-width: 991px){
+    .right-side-info-header,
+    .home-banner-nav{
+        display: none;
+    }
+    .logo {
+        width: 120px;
+        height: 60px;
+    }
+    .header-1-box{
+        height: 121px;
+    }
+    .home-banner-image {
+        height: 400px;
+    }
+    .home_page_header {
+        height: 590px;
+    }
+    .home-banner-image {
+        height: 400px;
+    }
+    .home-banner-text .text {
+        font-size: 20px;
+        line-height: 32px;
+        max-height: 95px;
+        overflow: hidden;
+        display: block;
+    }
+    .home-banner-text { 
+        max-width: 523px;
+        height: 155px;
+        padding: 25px 30px;
+        left: 8%;
+    }
+    .important-title{
+        margin-bottom: 30px;
+    }
+    .important-title img {
+        width: 85px;
+        height: 70px;
+    }
+    .important-title h1 {
+        font-size: 22px;
+    }
+    .program-text h2{
+        font-size: 20px;
+    }
+    .hover-title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .vacancy-ul{
+        display: none;
+    }
+    .vacancy-right-box{
+        padding-top: 100px;
+    }
+    .vacancy-context h1{
+        font-size: 20px;
+    }
+    .vacancy-type-list {
+        padding-right: 4%;
+        gap: 20px;
+    }
+    .vacancy-section { 
+        height: 690px;
+    }
+    .vacancy-blur { 
+        height: 690px;
+    }
+    .see-all-link{
+        bottom: 0;
+    }
+    .vacancy-cont {
+        top: 55px;
+    }
+    .vacancy-item span {
+        font-size: 18px;
+        padding-right: 0;
+    }
+     
+}

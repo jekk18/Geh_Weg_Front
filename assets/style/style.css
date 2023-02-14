@@ -413,7 +413,7 @@
    color: #606060;
    font-family: 'BPG DejaVuSans';
    line-height: 28px;
-   max-height: 219px;
+   max-height: 221px;
    overflow: hidden;
    text-align: center;
    margin-bottom: 60px;
@@ -445,6 +445,7 @@
  /* programs section */
 
  /* Footer */
+  
  .footer-box{
    width: 100%;
    padding: 90px 0;
@@ -473,6 +474,7 @@
    display: flex;
    flex-direction: column;
    gap: 30px;
+   padding-right: 10px;
  }
  .footer-contact-info h1{
    font-size: 18px;
@@ -537,6 +539,8 @@
    line-height: 26px;   
     font-family: 'BPG DejaVuSans';
     text-align: end;
+    max-height: 78px;
+    overflow: hidden;
  }
  .footer-socails{
    display: flex;
@@ -739,6 +743,8 @@
 }
 .vacancy-li{
   width: calc((100% / 2) - 20px);
+  max-height: 45px;
+  overflow: hidden;
   display: flex;
   gap: 25px;
   align-items: center;
@@ -1131,7 +1137,7 @@
 }
 .another-page-header{
   width: 100%;
-  height: initial;
+  height: initial!important;
 }
 .another-page-header::before{
   display: none;
