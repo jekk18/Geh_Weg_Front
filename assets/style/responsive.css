@@ -80,6 +80,8 @@
     .about-form input{
         width: 440px;
     }
+    
+
 }
 
 @media (max-width: 1400px){
@@ -224,6 +226,14 @@
     .footer-socails { 
         gap: 8px;
     }
+     /* Contact Page */
+     .left-contact img { 
+        height: 375px;
+    }
+    .left-text-side-box img{
+        height: 196px;
+    }
+    /* Contact Page */
 }
 
 @media (max-width: 1200px){
@@ -361,6 +371,31 @@
     .footer-links ul{
         gap: 18px;
     }
+     /* Contact Page */
+     ._banner-img { 
+        height: 640px;
+    }
+     .left-contact img { 
+        height: 300px;
+    }
+    .left-text-side-box img{
+        height: 140px;
+        width: 150px;
+    }
+    .left-text-side-box h1{
+        font-size: 24px;
+    }
+    .right-contact { 
+        padding: 40px;
+    }
+    .left-text-side-box { 
+        padding: 40px 60px;
+        height: 370px; 
+    }
+    .map{
+        height: 550px;
+    }
+    /* Contact Page */
 }
 
 @media (max-width: 991px){
@@ -443,5 +478,728 @@
         font-size: 18px;
         padding-right: 0;
     }
-     
+     .hidden-responsive-footer{
+        display: none;
+     }
+     .create span, .create a {
+        font-size: 14px; 
+    }
+    .footer-contact-info h1 {
+        font-size: 16px; 
+    }
+    .f-logo {
+        width: 140px;
+        height: 72px;
+    }
+    .__left-about-text {
+        padding: 20px 20px 20px 20px;
+        width: 290px;
+    }
+    .__left-about-text .text {
+        margin-bottom: 25px;
+        display: none;
+    }
+    .__about-left-image-box {
+        height: 410px;
+    }
+    .right-about-box {
+        height: 460px;
+    }
+    .about-subscribe-box {
+        top: 145px;
+    }
+    .about-form input {
+        width: 260px;
+        height: 50px;
+        padding-right: 50px;
+    }
+    .about-subscribe-box h2 {
+        font-size: 18px;
+    }
+    .about-form button {
+        width: 50px;
+        height: 50px;
+    }
+    .name_00_box h1{
+        font-size: 16px;
+    }
+    .slider-item .text {
+        font-size: 16px;
+        line-height: 24px; 
+        max-height: 72px; 
+    }
+    .slider-item{
+        height: 408px;
+    }
+    .slider-img {
+        width: 109px;
+        height: 109px;
+    }
+    .slider-item-flex{
+        padding: 20px;
+    }
+    .home-slider-section{
+        height: 570px;
+    }
+    .home-slider { 
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .rank_stars {
+        margin-top: 4px; 
+    }
+    .burger-lines{
+        display: block;
+        width: 40px;
+        height: 27px;
+        overflow: hidden;
+        cursor: pointer; 
+    }
+    .br-line{
+        width: 36px;
+        height: 3px;
+        background: #fff;
+        margin-top: 5px;
+        border-radius: 5px;
+        transition: 0.3s;
+    } 
+    .header-1-box{
+        overflow: hidden
+    }
+    .burger-menu-box{
+        background: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto; 
+        transition: 0.3s;
+    }
+    .burger-menu{
+        position: absolute;
+        right: 0;
+        width: 75%;
+        padding: 80px 40px;
+        background: #498698;
+        transition: 0.3s;
+    }
+    .open-burger-menu{
+        display: flex;
+    }
+    .burger-lang{
+        margin-bottom: 20px;
+        display: flex;
+        gap: 5px;
+    }
+    .burger-lang a, .burger-lang span{
+        font-size: 14px;
+        color: #fff;
+        font-family: 'BPG DejaVuSans'; 
+    }
+    .burger-lang a.active{
+        color: #E5BC62;
+    }
+    .burger-menu form{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .burger-menu form input{
+        border: none;
+        outline: none;
+        font-size: 14px;
+        color: #707070;
+        max-width: 300px;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 40px;
+        background: #fff;
+    }
+    .burger-menu form button{
+        background: transparent;
+        position: absolute;
+        top: -2px;
+        left: 10px;
+        height: 40px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger-ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .burger-li{
+        list-style: none;
+        padding-left: 5px;
+    }
+    .burger-a{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'BPG DejaVu Sans Caps Book';
+        transition: 0.3s;
+    }
+    .burger-contact{
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .burger-contact a .icon_he_0 span.icon-phone-call,
+    .burger-contact a .icon_he_0 span.icon-placeholder{
+        color: rgba(92, 170, 198, 1);
+    }
+    .burger-close-btn{
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 45px;
+        right: 50px;
+    }
+    .close-line:first-child{ 
+        width: 36px;
+        height: 3px;
+        background: #fff;
+        border-radius: 10px;
+        transform: translate(1px, 15px) rotate(45deg);
+    } 
+    .close-line:last-child{ 
+        width: 36px;
+        height: 3px;
+        background: #fff;
+        border-radius: 10px;
+        transform: translate(1px, 13px) rotate(-45deg);
+    } 
+    /* About Page */
+    .about-page-title {
+        display: none;
+    }
+    /* About Page */
+    /* Contact Page */
+    .right-header-nav-box{
+        display: none;
+    }
+    ._banner-img {
+        height: 570px;
+    }
+    .brc-cont { 
+        margin: 20px 0; 
+    }
+    .contact-box { 
+        flex-direction: column; 
+    }
+    .left-contact{
+        width: 100%;
+    }
+    .left-contact img {
+        height: 350px;
+    }
+    .left-text-side-box img {
+        height: 140px; 
+    }
+    .left-text-side-box{
+        padding: 40px 40px;
+    }
+    .right-contact{
+        width: 100%;
+    }
+    .map {
+        height: 500px;
+    }
+    /* Contact Page */
+
+}
+@media (max-width: 768px){
+    .header_1{
+        padding: 15px 0;
+    }
+    .header-1-box {
+        height: 90px;
+    }
+    .home-banner-container {
+        position: absolute;
+        top: 110px;
+        height: calc(100% - 110px);
+    }
+    .home-banner-box{
+        width: 100%;
+    }
+    .home-banner-image{
+        height: 381px;
+        border-radius: 0;
+    }
+    .home-banner-text{
+        display: none;
+    } 
+    .home_page_header {
+        height: 490px;
+        overflow: hidden;
+    }
+    .programs-section{
+        overflow-x: hidden;
+        padding-bottom: 60px;
+    }
+    .programs-box{
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 130%;
+        overflow-x: scroll; 
+        padding-right: 20%;
+    }
+    .program-item{
+        width: 320px;
+    }
+    .p-item{
+        width: 320px;
+    }
+    .important-title h1 {
+        font-size: 20px;
+    }
+    .important-title img {
+        width: 62px;
+        height: 55px;
+    }
+    .program-text h2 {
+        font-size: 18px;
+    }
+    .hover-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pos-rel{
+        display: none;
+    }
+    .vacancy-section,  .vacancy-blur{
+        height: 690px;
+        background-size: cover;
+        background-position: center;
+    }    
+    .vacancy-type-list{
+        padding-right: initial;
+    }
+    .vacancy-item span{
+        max-width: calc(100% - 96px);
+    }
+    .vacancy-item { 
+        padding-right: 40px;
+    }
+    .vacancy-cont {
+        top: 50px;
+    }
+    .resp-link-show{
+        display: flex;
+        justify-content: end;
+        position: initial;
+        margin-top: 26px;
+    }
+    .home-about-us-section {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .left-about-box{
+        width: 100%;
+    }
+    .right-about-box { 
+        width: 230px;
+        height: 100px;
+        z-index: 5;
+        top: 160px;
+        right: 70px;
+    }
+    .about-subscribe-box{
+        top: 0;
+    }
+    .right-about-image, .backgournd-about-blur{
+        display: none;
+    }
+    .about-form button span svg{
+        height: 26px;
+    }
+    .about-subscribe-box h2 {
+        font-size: 16px;
+    }
+    .about-form input {
+        width: 230px; 
+    }
+    .__left-about-text{
+        left: 0;
+    }
+    .__left-about-text h1 {
+        font-size: 18px;
+        line-height: 26px; 
+    }
+    .__left-about-text .text{
+        display: block;
+        max-height: 44px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .left-arrow, .right-arrow{
+        display: none;
+    }
+    .full-width-responsive-cont{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .slider_1 .slick-slide {
+        margin: 0 10px;
+    }
+    .slider_1 .slick-list { 
+        margin: 0 -10px;
+    }
+    .hidden-responsive-footer-2{
+        display: none;
+    }
+    .f0ooter-box {
+        padding: 50px 0;
+    }
+    .create span, .create a {
+        font-size: 10px;
+    } 
+    .programs-box::-webkit-scrollbar { 
+        height: 0px;
+      } 
+    /* Contact Page */
+    .left-contact img {
+        height: 300px;
+    }
+    .left-text-side-box img {
+        height: 140px; 
+    }
+    .header_01{
+        height: 90px;
+    }
+    /* Contact Page */
+
+}
+
+
+@media (max-width: 575px){
+    .logo {
+        width: 95px;
+        height: 40px;
+    }
+    .header-1-box {
+        height: 70px;
+    }
+    .home_page_header {
+        height: 451px; 
+    }
+    .home-banner-container { 
+        top: 70px;
+        height: calc(100% - 70px);
+    }
+    .important-title img {
+        width: 52px;
+        height: 46px;
+    } 
+    .programs-section { 
+        padding-bottom: 40px;
+        padding-top: 40px;
+    } 
+    .important-title {
+        margin-bottom: 20px;
+        gap: 12px;
+    }
+    .important-title h1 {
+        font-size: 18px;
+    }
+    .program-item {
+        width: 264px;
+        height: 457px;
+    }
+    .p-text-icon {
+        width: 82px;
+        height: 82px;
+    }
+    .program-text h2 {
+        font-size: 16px;
+    }
+    .hover-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .program-text .text{
+        font-size: 16px;
+        line-height: 22px;
+        max-height: 155px;
+    }
+    .program-text span img{
+        width: 46px;
+    }
+    .icon-vacancy {
+        width: 56px;
+        height: 56px;
+    }
+    .vacancy-item {
+        padding: 12px;
+        padding-left: 20px;
+        gap: 20px;
+        padding-right: 20px;
+    }
+    .vacancy-item span{
+        margin-top: 5px;
+        max-height: 44px;
+        line-height: 22px;
+        font-size: 16px;
+        max-width: calc(100% - 77px);
+    }
+    .vacancy-section {
+        height: 580px; 
+    }
+    .vacancy-section, .vacancy-blur {
+        height: 580px;
+        background-size: cover;
+        background-position: center;
+    }
+    .see-all-link a{
+        font-size: 14px;
+    }
+    .home-about-us-section {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    .about-form input { 
+        height: 40px;
+        padding-right: 40px;
+    }
+    .about-form button {
+        width: 40px;
+        height: 40px;
+    }
+    .about-form button span svg {
+        height: 20px;
+    }
+    .__about-left-image-box{
+        border: none;
+    }
+    .about-subscribe-box h2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .about-form input::placeholder,
+    .about-form input{
+        font-size: 12px;
+    }
+    .right-about-box{
+        right: 50px;
+        top: 136px;
+    }
+    .about-dots img {
+        width: 46px;
+        height: 11px;
+    }
+    .__left-about-text h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .slider_1 .slick-slide {
+        margin: 0 6px;
+    }
+    .slider_1 .slick-list { 
+        margin: 0 -6px;
+    }
+    .slider-item-flex{
+        display: flex;
+        flex-direction: initial;
+        flex-wrap: wrap;
+        padding: 40px 18px;
+    }
+    .slider-img {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+    .name_00_box { 
+        align-items: flex-start;
+        margin-top: 0;
+        width: calc((100% - 80px));
+        padding-left: 10px;
+    } 
+    .name_00_box h1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .name_00_box span{
+        font-size: 12px;
+        height: 18px;
+        overflow: hidden;
+    }
+    .rank_stars{
+        gap: 3px;
+    }
+    .rank_stars span {
+        margin: 0;
+    }
+    .rank_stars span svg{
+        width: 13px;
+        height: 13px;
+    }
+    .slider-item .text {
+        font-size: 14px;
+        line-height: 20px;
+        max-height: 80px;
+        text-align: left;
+        margin: 0;
+    }
+    .see-all span{
+        font-size: 12px;
+    }
+    .slider-item{
+        height: 291px;
+    }
+    .home-slider {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .home-slider-section {
+        height: 372px;
+    }
+    .programs-box{
+        padding-right: 28%;
+    }
+    .footer-box {
+        padding: 40px 0;
+    }
+    .create {  
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-contact-info h1 {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .footer-contact-info ul{
+        gap: 8px;
+    }
+    .footer-contact-info ul li{
+        line-height: 16px;
+    }
+    .footer-contact-info ul li a, .footer-links ul li a {
+        font-size: 10px;
+        line-height: 14px;
+    }  
+    .footer-message-box .text{
+        display: none;
+    }   
+    .footer-a {
+        padding: 5px 9px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .f-soc-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-socails {
+        gap: 5px;
+    }
+    .icon-mail {
+        font-size: 8px;
+    }
+    .icon-fb {
+        font-size: 12px;
+    }
+    .icon-instagram {
+        font-size: 12px;
+    }
+    .footer-message-box{
+        padding-top: 12px;
+        gap: 12px;
+    }
+    .hidden-footer-logo-resp{
+        display: block;
+    }
+    .hidden-footer-logo-resp a img{
+        width: 70px;
+        height: 35px;
+    }
+    .footer-contact-info {
+        gap: 8px;
+    }
+    .footer-contact-info ul {
+        gap: 5px;
+    }
+    .burger-close-btn { 
+        top: 22px;
+        right: 30px;
+    }
+      /* Contact Page */
+      ._banner-img {
+        height: 381px;
+    }
+    .header_01{
+        height: 70px;
+    } 
+    .brc-cont a{
+        font-size: 14px;
+    }
+    .left-contact img {
+        height: 196px;
+    }
+    .left-text-side-box img {
+        width: 98px;
+        height: 98px;
+    }
+    .left-text-side-box {
+        padding: 30px 20px; 
+        height: initial;
+        border-bottom: none;
+    }
+    .left-text-side-box h1 {
+        font-size: 16px;
+        line-height: 24px; 
+        margin-bottom: 18px;
+    }
+    .left-text-side-box ul li a { 
+        font-size: 12px; 
+        line-height: 20px; 
+    }
+    .left-text-side-box ul li { 
+        line-height: 20px;
+    }
+    .left-text-side-box ul { 
+        gap: 8px;
+    }  
+    .right-cont-form-box h1 { 
+        font-size: 16px;
+        margin-bottom: 20px; 
+    }
+    .right-contact {
+        padding: 30px 20px;
+    }
+    .right-cont-form-box form { 
+        gap: 12px;
+    }
+    .right-cont-form-box form input {
+        width: calc((100% / 2) - 6px);
+        height: 35px; 
+        border-radius: 5px;  
+        font-size: 12px; 
+    }
+    .right-cont-form-box form input::placeholder,
+    .right-cont-form-box form textarea::placeholder{
+        font-size: 12px;
+    }
+    .right-cont-form-box form textarea { 
+        font-size: 12px;  
+        border-radius: 5px;  
+        height: 80px; 
+    }
+    .contact-btn button {
+        padding: 9px 20px;
+        border-radius: 5px; 
+        font-size: 12px;   
+    }
+    .map {
+        height: 230px;
+    }
+    .brc-cont span svg {
+        height: 12px;
+    }
+    /* Contact Page */
 }

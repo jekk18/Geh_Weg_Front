@@ -32,16 +32,16 @@ $(document).ready(function(){
             settings: {
               centerMode: true,
               centerPadding: '60px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
             breakpoint: 768,
             settings: {
-              arrows: false,
+              arrows: false, 
               centerMode: true,
               centerPadding: '40px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
@@ -49,7 +49,7 @@ $(document).ready(function(){
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '90px',
+              centerPadding: '35px',
               slidesToShow: 1
             }
           }
@@ -58,7 +58,12 @@ $(document).ready(function(){
   });
 
 
-
+  $('.burger-lines').click(() => { 
+    $('.burger-menu-box').addClass('open-burger-menu');
+  })
+  $('.burger-close-btn').click(() => { 
+    $('.burger-menu-box').removeClass('open-burger-menu');
+  })
 $(window).scroll(() => {
     if(scrollY > 10){ 
         $( ".header-1-box" ).addClass('scroll-header-class');

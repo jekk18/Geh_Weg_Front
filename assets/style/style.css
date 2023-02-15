@@ -22,7 +22,12 @@
    background-color: #5CAAC6;
  }
 /* ScrollBar */
-
+.resp-link-show{
+  display: none;
+}
+.burger-menu-box{
+  display: none;
+}
  .burger-lines{
     display: none;
  }
@@ -445,7 +450,9 @@
  /* programs section */
 
  /* Footer */
-  
+  .hidden-footer-logo-resp{
+    display: none;
+  }
  .footer-box{
    width: 100%;
    padding: 90px 0;
@@ -996,6 +1003,9 @@
     border-top: 12px solid #fff;
     border-right: 12px solid #fff;
   }
+  .__about-left-image-box a{
+    height: 100%;
+  }
   .__about-left-image-box img{
     width: 100%;
     height: 100%;
@@ -1124,7 +1134,8 @@
 .brc-cont{
   width: 100%;
   margin: 30px 0;
-  display: flex; 
+  display: flex;
+  align-items: center; 
   gap: 10px;
 }
 .brc-cont a{
