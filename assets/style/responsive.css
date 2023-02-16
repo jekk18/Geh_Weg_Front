@@ -234,6 +234,11 @@
         height: 196px;
     }
     /* Contact Page */
+    /* Search */
+    .search-page-section {
+        padding: 60px 0;
+    }
+    /* Search */
 }
 
 @media (max-width: 1200px){
@@ -396,6 +401,14 @@
         height: 550px;
     }
     /* Contact Page */
+     /* Search */
+     .search-page-section {
+        padding: 50px 0;
+    }
+    .search-input-box{
+        margin-bottom: 50px;
+    }
+    /* Search */
 }
 
 @media (max-width: 991px){
@@ -657,6 +670,7 @@
         position: absolute;
         top: 45px;
         right: 50px;
+        cursor: pointer;
     }
     .close-line:first-child{ 
         width: 36px;
@@ -874,6 +888,9 @@
         height: 90px;
     }
     /* Contact Page */
+    .pagintaion_0{
+        margin-top: 50px;
+    }
 
 }
 
@@ -1202,4 +1219,46 @@
         height: 12px;
     }
     /* Contact Page */
+    /* Search */
+    .search-page-section {
+        padding: 50px 0;
+        padding-top: 30px;
+    }
+    .result-item h1 {
+        margin-bottom: 17px;
+        font-size: 14px;
+        line-height: 20px; 
+    }
+    .result-item .text { 
+        font-size: 14px;
+        line-height: 26px; 
+    }
+    .read-more-box_0 h2 { 
+        font-size: 14px;
+        line-height: 24px; 
+    }
+    .read-more-box_0 a { 
+        font-size: 12px; 
+    }
+    .search-input-box {
+        margin-bottom: 35px;
+    }
+    .search-input-box input { 
+        height: 50px; 
+        padding-left: 12px; 
+        font-size: 14px; 
+        margin-bottom: 10px;
+    }
+    .search-input-box input::placeholder{
+        font-size: 14px;
+    }
+    .search-input-box button { 
+        width: 50px;
+        height: 50px; 
+    }
+    .result-text {
+        font-size: 12px; 
+    }
+    /* Search */
+
 }
