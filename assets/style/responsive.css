@@ -80,7 +80,19 @@
     .about-form input{
         width: 440px;
     }
-    
+    /* Vacancy-det */
+    .box-00 {  
+        padding: 14px 20px; 
+        font-size: 18px; 
+    }
+    .send-btn-active {
+        padding: 35px 20px;       
+        width: 330px;
+        display: flex;
+        justify-content: center;
+    }
+    /* Vacancy-det */
+
 
 }
 
@@ -239,6 +251,29 @@
         padding: 60px 0;
     }
     /* Search */
+    /* Vacancy-det */
+    .vacancy-det-box h1 {
+        margin-top: 10px; 
+    } 
+    .request-ul li {
+        width: 100%; 
+    }
+    .v-det-image { 
+        height: 530px;
+    }
+    .text-det-vac {
+        margin-top: 25px;
+        font-size: 18px; 
+        line-height: 28px; 
+        margin-bottom: 25px;
+    }
+    .send-btn-active {
+        font-size: 20px;
+    }
+    .vacancy-det-box h1{
+        font-size: 22px;
+    }
+    /* Vacancy-det */
 }
 
 @media (max-width: 1200px){
@@ -409,9 +444,92 @@
         margin-bottom: 50px;
     }
     /* Search */
+    /* About Page*/
+    .about-content-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    /* About Page*/
+    /* Vacancy Page */
+    .vacancy-page-section_12 .vacancy-right-box{
+        padding-top: 0;
+    }
+    .vacancy-page-section_12 .vacancy-right-box .img-fix-box_1{
+        width: 70px;
+        height: 70px;
+    }
+    .vacancy-page-section_12 .vacancy-right-box .img-fix-box_1 img{
+        width: 40px;
+        height: 27px;
+    }
+    .vacancy-page-section_12 .vacancy-top-fixed-box{ 
+        height: 100px; 
+        padding: 16px 40px; 
+    }
+    .vacancy-page-section_12 .vacancy-right-img {
+        height: 310px;
+    }
+    .vacancy-page-section_12  .vacancy-context .text { 
+        max-height: 74px; 
+    }
+    .vacancy-context_2 {
+        height: 400px;
+    }
+    .vacancy-page-section_12 .resp-row-03 {
+        gap: 30px 0;
+    }
+    /* Vacancy Page */ 
+    /* Vacancy-det */ 
+    .v-det-image { 
+        height: 480px;
+    } 
+    .vacancy-det-box h1{
+        font-size: 20px;
+    }
+    .box-00 img {
+        width: 35px;
+        height: 24px;
+    }
+    .buttons-box { 
+        gap: 14px;
+    }
+    .box-00 {
+        padding: 12px 20px;
+        font-size: 12px;
+        gap: 6px; 
+        border-radius: 5px;
+    }
+    .requests-box h2 { 
+        font-size: 20px; 
+        margin-bottom: 20px;
+    }
+    .request-ul { 
+        gap: 15px; 
+    }
+    .sent-form-det {  
+        padding: 25px; 
+    }
+    .sent-form-det form { 
+        gap: 16px;
+    }
+    .upload-files button {
+        padding: 14px 25px; 
+    }
+    .sent-form-det form textarea{
+        height: 110px;
+    }
+    .sent-form-det form input {
+        width: calc((100% / 2) - 8px); 
+        border-radius: 5px; 
+    }
+    /* Vacancy-det */
 }
 
 @media (max-width: 991px){
+    ._banner-img img{
+        object-fit: cover;
+    }
     .right-side-info-header,
     .home-banner-nav{
         display: none;
@@ -686,11 +804,7 @@
         border-radius: 10px;
         transform: translate(1px, 13px) rotate(-45deg);
     } 
-    /* About Page */
-    .about-page-title {
-        display: none;
-    }
-    /* About Page */
+    
     /* Contact Page */
     .right-header-nav-box{
         display: none;
@@ -723,6 +837,85 @@
         height: 500px;
     }
     /* Contact Page */
+    /* About Page*/
+    .about-content-text { 
+        font-size: 14px; 
+    }
+    /* About Page*/
+     /* Vacancy Page */ 
+    .vacancy-page-section_12 .vacancy-right-box .img-fix-box_1{
+        width: 55px;
+        height: 55px;
+    }
+    .vacancy-page-section_12 .vacancy-right-box .img-fix-box_1 img{
+        width: 35px;
+        height: 20px;
+    }
+    .vacancy-page-section_12 .vacancy-top-fixed-box {
+        height: 73px;
+        padding: 6px 30px;
+    }
+    .vacancy-page-section_12 .vacancy-right-img {
+        height: 270px;
+    }
+    .vacancy-page-section_12  .vacancy-top-fixed-box h1 {
+        width: 70%;
+        font-size: 18px; 
+        line-height: 30px; 
+        margin-top: 12px;
+    }
+    .vacancy-page-section_12  .vacancy-context .text { 
+        max-height: 48px; 
+    }
+    .vacancy-page-section_12 .vacancy-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .vacancy-page-section_12 .vacancy-li{
+        width: 100%;
+    }
+    .vacancy-context_2 {
+        height: 400px;
+    }
+    .vacancy-page-section_12 .resp-row-03 {
+        gap: 30px 0;
+    }
+    .vacancy-page-section_12 {
+        padding-bottom: 60px;
+    }
+    /* Vacancy Page */
+     /* Vacancy-det */
+     .row-resp-vacancy-det_01{
+        flex-direction: column-reverse;
+    }
+    .vacancy-det-box h1{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .send-btn-active{
+        bottom: -30px;
+    }
+    .buttons-box{
+        margin-top: 55px;
+    }
+    .request-ul li { 
+        width: calc((100% / 2) - 8px);
+    }
+    .request-ul li a { 
+        font-size: 16px; 
+    }
+    .box-00 {
+        padding: 20px 30px;
+        font-size: 12px;
+        gap: 10px;
+        border-radius: 5px;
+    }
+    .vacancy-det-section .v-det-ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Vacancy-det */
 
 }
 @media (max-width: 768px){
@@ -891,7 +1084,26 @@
     .pagintaion_0{
         margin-top: 50px;
     }
-
+     /* About Page */
+     .about-page-title {
+        display: none;
+    }
+    .about-content-text { 
+        font-size: 12px;
+        line-height: 20px; 
+    }
+    /* About Page */ 
+      /* Vacancy Page */ 
+    .vacancy-page-section_12 .pos-rel {
+        display: flex;
+    } 
+    /* Vacancy Page */
+    
+    /* Vacancy-det */      
+    .request-ul li { 
+        width: 100%;
+    }  
+    /* Vacancy-det */
 }
 
 
@@ -1260,5 +1472,175 @@
         font-size: 12px; 
     }
     /* Search */
+    /* Vacancy Page */  
+    .vacancy-page-section_12 .vacancy-top-fixed-box {
+        height: 92px;
+        padding: 15px 20px;
+    }
+    .vacancy-page-section_12 .vacancy-top-fixed-box h1 {
+        width: 74%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 6px;
+        max-height: 40px;
+    }
+    .vacancy-page-section_12 .vacancy-right-img {
+        height: 302px;
+    }
+    .vacancy-page-section_12 .vacancy-time-box {
+        padding: 11px 20px 11px 16px;
+        font-size: 12px;
+    }
+    .vacancy-page-section_12 .vacancy-dots{
+        justify-content: center;
+    }
+    .vacancy-page-section_12 .vacancy-dots a img{
+        height: 11px;
+    }
+    .vacancy-page-section_12 .vacancy-context h1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .vacancy-page-section_12 .vacancy-context {
+        padding: 25px 20px 25px 20px;
+    }
+    .vacancy-page-section_12 .vacancy-context .text {
+       display: none;
+    }
+    .vacancy-page-section_12 .vacancy-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .vacancy-page-section_12 .vacancy-li span {
+        font-size: 18px; 
+    }
+    .vacancy-context_2 {
+        height: 300px;
+    }
+    /* Vacancy Page */
+
+     /* Vacancy-det */  
+     .vacancy-det-box h1 {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .v-det-image {
+        height: 290px;
+    }
+    .send-btn-active {
+        padding: 18px 20px;
+        width: 263px;
+        font-size: 14px;
+        bottom: -20px; 
+    }
+    .sent-form-det{
+        position: initial;
+    }
+    .buttons-box {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box-00{
+        width: 100%;
+        font-size: 14px;
+    }
+    .v-det-right::after { 
+        width: 80%;
+        height: 90%;
+        right: -15px;
+        top: -15px;  
+    }
+    .requests-box h2 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .request-ul li { 
+        padding-left: 22px;
+        display: flex;
+        align-items: center;
+    }
+    .request-ul li a {
+        font-size: 12px;
+    }
+    .request-ul li::before { 
+        width: 12px;
+        height: 12px; 
+    }
+    .text-det-vac {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .file-download{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .file-download span svg{
+        width: 24px;
+    }
+    .socials {
+        margin-top: 20px; 
+        gap: 10px;
+    }
+    .socials a {
+        width: 40px;
+        height: 40px; 
+    }
+    .sent-form-det form {
+        gap: 12px;
+    }
+    .close-btn{
+        right: 0;
+    }
+    .send-btn-active .vacancy-det-box h1 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .sent-form-det form input {
+        width: calc((100% / 2) - 6px);
+        border-radius: 5px;
+        padding-left: 8px;
+        font-size: 12px; 
+        height: 30px;  
+    }
+    .sent-form-det form textarea { 
+        height: 80px; 
+        border-radius: 5px; 
+        padding: 8px;
+        font-size: 12px; 
+    }
+    .upload-files button {
+        padding: 8px 18px;
+        border-radius: 4px;
+    }
+    .upload-scale-box {
+        width: 130px; 
+        height: 30px;
+    }
+    .upload-scale-box span{
+        width: 25px;
+        height: 35px;
+    }
+    .upload-scale-box span svg{
+        width: 100%;
+    }
+    .files_10 span.file-text{
+        font-size: 12px;
+        right: 15px;
+        padding-top: 5px;
+        height: 30px;
+    }
+    .vacancy-det-section .vacancy-li { 
+        width: 100%;
+    }
+    .vacancy-det-section .vacancy-li span{
+        font-size: 20px;
+    }
+    /* Vacancy-det */
 
 }
