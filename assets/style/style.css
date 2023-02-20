@@ -216,6 +216,7 @@
    align-items: center;
    justify-content: center; 
    background-color: #fff;
+   border: none;
    border-radius: 50%;
    z-index: 12;
  }

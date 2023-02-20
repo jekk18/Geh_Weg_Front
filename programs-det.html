@@ -1,772 +1,1282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geh Web</title> 
-    <link rel="stylesheet" href="assets/style/bootstrap.css">
-    <link rel="stylesheet" href="assets/style/fonts.css">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/responsive.css">
-    <link rel="stylesheet" href="assets/style/slick.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
-</head>
-<body>
-     
-        <header>
-            <div class="home_page_header another-page-header" >
-                <div class="header-1-box header-box">
-                    <div class="container">
-                        <div class="header_1 header_01">
-                            <div class="logo">
-                                <a href="#">
-                                    <img src="assets/img/logo.svg" alt="logo">
-                                </a>
-                            </div>
-                            <div class="right-header-nav-box">
-                                <div class="right-side-info-header">
-                                    <div class="contact-info-header">
-                                        <a href="#">
-                                            <div class="icon_he_0">
-                                                <span class="icon-phone-call"></span>
-                                            </div>
-                                            +995 511 16 50 48
-                                        </a>
-                                        <a href="#">
-                                            <div class="icon_he_0">
-                                                <span class="icon-placeholder"></span>
-                                            </div>
-                                            კიტა აბაშიძის ქუჩა, თბილისი
-                                        </a>
-                                    </div>
-                                     <div class="lang-box">
-                                        <div class="lang">
-                                            <a href="#">en</a>
-                                            <a href="#">ge</a>
-                                            <a href="#">de</a>
-                                        </div>
-                                     </div>
-                                    <div class="searc-box-header">
-                                        <form action="" class="search-form">
-                                            <input type="text">
-                                            <div class="button-search">
-                                                <span> 
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="19.309" height="20" viewBox="0 0 19.309 20">
-                                                        <path id="search_2_" data-name="search (2)" d="M20,18.217l-4.76-4.951A8.072,8.072,0,1,0,9.059,16.15a7.989,7.989,0,0,0,4.626-1.461l4.8,4.988A1.053,1.053,0,1,0,20,18.217ZM9.059,2.107A5.968,5.968,0,1,1,3.091,8.075,5.975,5.975,0,0,1,9.059,2.107Z" transform="translate(-0.984)" fill="#488597"/>
-                                                    </svg> 
-                                                </span>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="nav-box">
-                                    <ul>
-                                        <li>
-                                            <a href="#">მთავარი</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">ჩვენ შესახებ</a>
-                                        </li>
-                                        <li >
-                                            <a href="#">ვაკანსიები</a>
-                                        </li>
-                                        <li  class="active"> 
-                                            <a href="#">პროგრამები</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">კონტაქტი</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="burger-lines"></div>
-                        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geh Web</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.css" />
+    <link rel="stylesheet" href="assets/style/fonts.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/style/responsive.css" />
+    <link rel="stylesheet" href="assets/style/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="home_page_header another-page-header">
+        <div class="header-1-box header-box">
+          <div class="container">
+            <div class="header_1 header_01">
+              <div class="logo">
+                <a href="#">
+                  <img src="assets/img/logo.svg" alt="logo" />
+                </a>
+              </div>
+              <div class="right-header-nav-box">
+                <div class="right-side-info-header">
+                  <div class="contact-info-header">
+                    <a href="#">
+                      <div class="icon_he_0">
+                        <span class="icon-phone-call"></span>
+                      </div>
+                      +995 511 16 50 48
+                    </a>
+                    <a href="#">
+                      <div class="icon_he_0">
+                        <span class="icon-placeholder"></span>
+                      </div>
+                      კიტა აბაშიძის ქუჩა, თბილისი
+                    </a>
+                  </div>
+                  <div class="lang-box">
+                    <div class="lang">
+                      <a href="#">en</a>
+                      <a href="#">ge</a>
+                      <a href="#">de</a>
                     </div>
+                  </div>
+                  <div class="searc-box-header">
+                    <form action="" class="search-form">
+                      <input type="text" />
+                      <div class="button-search">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="19.309"
+                            height="20"
+                            viewBox="0 0 19.309 20"
+                          >
+                            <path
+                              id="search_2_"
+                              data-name="search (2)"
+                              d="M20,18.217l-4.76-4.951A8.072,8.072,0,1,0,9.059,16.15a7.989,7.989,0,0,0,4.626-1.461l4.8,4.988A1.053,1.053,0,1,0,20,18.217ZM9.059,2.107A5.968,5.968,0,1,1,3.091,8.075,5.975,5.975,0,0,1,9.059,2.107Z"
+                              transform="translate(-0.984)"
+                              fill="#488597"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </form>
+                  </div>
                 </div>
+                <div class="nav-box">
+                  <ul>
+                    <li>
+                      <a href="#">მთავარი</a>
+                    </li>
+                    <li>
+                      <a href="#">ჩვენ შესახებ</a>
+                    </li>
+                    <li>
+                      <a href="#">ვაკანსიები</a>
+                    </li>
+                    <li class="active">
+                      <a href="#">პროგრამები</a>
+                    </li>
+                    <li>
+                      <a href="#">კონტაქტი</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="burger-lines"></div>
             </div>
-        </header>
+          </div>
+        </div>
+      </div>
+    </header>
 
-   <main>
+    <main>
+      <div class="scroll-top-button"></div>
 
-    <div class="scroll-top-button">
-        
-    </div>
-
-    <section>
+      <section>
         <div class="_banner">
-            <div class="_banner-img">
-                <img src="assets/img/banner2.png" alt="banner">
-            </div>
+          <div class="_banner-img">
+            <img src="assets/img/banner2.png" alt="banner" />
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section>
+      <section>
         <div class="container">
-            <div class="brc-cont">
-                <a href="#">მთავრი</a>
-                <span> 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10.07" height="17.14" viewBox="0 0 10.07 17.14">
-                        <g id="right-arrow_1_" data-name="right-arrow (1)" transform="translate(-101.478)">
-                        <g id="Group_213" data-name="Group 213" transform="translate(101.478)">
-                            <path id="Path_140" data-name="Path 140" d="M111.274,7.9,103.647.274a.94.94,0,0,0-1.326,0l-.562.562a.939.939,0,0,0,0,1.326l6.405,6.405-6.412,6.412a.94.94,0,0,0,0,1.326l.562.561a.94.94,0,0,0,1.326,0l7.635-7.635a.946.946,0,0,0,0-1.331Z" transform="translate(-101.478 0)" fill="#29607e"/>
-                        </g>
-                        </g>
-                    </svg> 
-                </span>
-                <a href="#" >პროგრამები</a>
-                <span> 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10.07" height="17.14" viewBox="0 0 10.07 17.14">
-                        <g id="right-arrow_1_" data-name="right-arrow (1)" transform="translate(-101.478)">
-                        <g id="Group_213" data-name="Group 213" transform="translate(101.478)">
-                            <path id="Path_140" data-name="Path 140" d="M111.274,7.9,103.647.274a.94.94,0,0,0-1.326,0l-.562.562a.939.939,0,0,0,0,1.326l6.405,6.405-6.412,6.412a.94.94,0,0,0,0,1.326l.562.561a.94.94,0,0,0,1.326,0l7.635-7.635a.946.946,0,0,0,0-1.331Z" transform="translate(-101.478 0)" fill="#29607e"/>
-                        </g>
-                        </g>
-                    </svg> 
-                </span>
-                <a href="#" class="active-brc">აუ-პაირ პროგრამა</a>
-            </div>
-        </div> 
-    </section>
-
-    <section>
-        <div class="vacancy-det-section programs-det-padd"> 
-            <div class="container">
-                <div class="vacancy-det-box">
-                    <h1>აუ-პაირ პროგრამა</h1>
-                    <div class="row row-resp-vacancy-det_01">
-                        <div class="col-lg-6  col-12">
-                            <div class="buttons-box">
-                                <a href="#" class="box-00">
-                                    <img src="assets/img/students-cap.svg" alt="st">
-                                    სტუდენტური დასაქმება
-                                </a>
-                                <a href="#" class="box-00">
-                                    <img src="assets/img/calendar.png" alt="calendar">
-                                    ხანგრძლივობა 2-3 თვე
-                                </a>
-                            </div>
-                            <div class="requests-box">
-                                <h2>მოთხოვნები</h2>
-                                <ul class="request-ul">
-                                    <li>
-                                        <a href="#">გერმანული ენის ცოდნა B1-B2 დონეზე</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">უმაღლესი განათლება</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">2 წლიანი სამუშაო გამოცდილება</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">2 წლიანი სამუშაო გამოცდილება</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">უმაღლესი განათლება</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="text-det-vac">
-                                ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. 
-                                შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერ სო ნა ლური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც 
-                            </div> 
-                            <a href="#" class="file-download" download>
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.274" height="43.43" viewBox="0 0 39.274 43.43">
-                                        <g id="attach" transform="translate(-64.084 -5.475)">
-                                        <path id="Path_224" data-name="Path 224" d="M100.67,98H77.153a3.07,3.07,0,0,0-3.07,3.07v35.2a3.07,3.07,0,0,0,3.07,3.07h31.089a3.07,3.07,0,0,0,3.07-3.07V108.641Z" transform="translate(-8.976 -91.456)" fill="#fff"/>
-                                        <path id="Path_225" data-name="Path 225" d="M344.558,108.641h-7.316a3.325,3.325,0,0,1-3.325-3.325V98Z" transform="translate(-242.223 -91.456)" fill="#e5bc62"/>
-                                        <path id="Path_229" data-name="Path 229" d="M213.828,244H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z" transform="translate(-123.268 -220.882)" fill="#4c8a9d"/>
-                                        <path id="Path_230" data-name="Path 230" d="M213.828,316H196.217a1.029,1.029,0,1,0,0,2.047h17.611a1.029,1.029,0,1,0,0-2.047Z" transform="translate(-123.268 -285.515)" fill="#4c8a9d"/>
-                                        <path id="Path_231" data-name="Path 231" d="M213.828,388H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z" transform="translate(-123.268 -350.148)" fill="#4c8a9d"/>
-                                        <path id="Path_232" data-name="Path 232" d="M103.357,17.135s0-.008,0-.012a.439.439,0,0,0-.005-.044,1.02,1.02,0,0,0-.292-.618L92.417,5.82a1.022,1.022,0,0,0-.681-.3l-.042,0H84.753c-9.381-.1-3.487.005-14.325,0H68.177a4.1,4.1,0,0,0-4.093,4.093v35.2A4.1,4.1,0,0,0,68.177,48.9H99.266a4.1,4.1,0,0,0,4.093-4.093V17.185C103.358,17.167,103.358,17.151,103.357,17.135ZM92.717,9.014l7.148,7.148H95.019a2.3,2.3,0,0,1-2.3-2.3V9.014Zm6.549,37.844H68.177a2.049,2.049,0,0,1-2.046-2.046V9.613a2.049,2.049,0,0,1,2.046-2.046H74.43c10.4.065,6.021.065,10.323,0H90.67V13.86a4.354,4.354,0,0,0,4.349,4.349h6.293v26.6A2.048,2.048,0,0,1,99.266,46.858Z" fill="#4c8a9d"/>
-                                        </g>
-                                    </svg> 
-                                </span>
-                                ფაილების ჩამოტვირთვა
-                            </a>
-                            <div class="socials">
-                                <a href="#">
-                                    <img src="assets/img/f-logo.png" alt="f-logo">
-                                </a>
-                                <a href="#">
-                                    <img src="assets/img/sh.png" alt="sh">
-                                </a>
-                                <a href="#">
-                                    <img src="assets/img/Image 5.png" alt="image">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="v-det-right">
-                                <div class="v-det-image">
-                                    <img src="assets/img/v-det.png" alt="v-det">
-                                </div>
-                                <div class="send-btn-active send-btn-active_2">
-                                    გამოგვიგზავნე განაცხადი
-                                </div>
-                                <div class="sent-form-det sent-form-det-2">
-                                    <form action="">
-                                        <span class="close-btn close-btn-2">  
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24.116" height="25.068" viewBox="0 0 24.116 25.068">
-                                                <g id="Group_909" data-name="Group 909" transform="translate(3.534 3.534)">
-                                                <path id="Path_184" data-name="Path 184" d="M11634.921,4602.147l17.048,18" transform="translate(-11634.921 -4602.147)" fill="none" stroke="#fefcf7" stroke-linecap="round" stroke-width="5"/>
-                                                <path id="Path_185" data-name="Path 185" d="M0,0,18,17.047" transform="translate(0.001 18) rotate(-90)" fill="none" stroke="#fefcf7" stroke-linecap="round" stroke-width="5"/>
-                                                </g>
-                                            </svg> 
-                                        </span>
-                                        <h1>გამოგვიგზავნე განაცხადი</h1>
-                                        <input type="text" placeholder="სახელი">
-                                        <input type="text" placeholder="გვარი">
-                                        <input type="phone" placeholder="მობილური">
-                                        <input type="email" placeholder="ელ-ფოსტა">
-                                        <textarea placeholder="შეტყობინება"></textarea>
-                                        <div class="upload-files">
-                                            <div class="files_10">
-                                                <div class="upload-scale-box">
-                                                    <span> 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="39.274" height="43.43" viewBox="0 0 39.274 43.43">
-                                                            <g id="attach" transform="translate(-64.084 -5.475)">
-                                                            <path id="Path_224" data-name="Path 224" d="M100.67,98H77.153a3.07,3.07,0,0,0-3.07,3.07v35.2a3.07,3.07,0,0,0,3.07,3.07h31.089a3.07,3.07,0,0,0,3.07-3.07V108.641Z" transform="translate(-8.976 -91.456)" fill="#fff"/>
-                                                            <path id="Path_225" data-name="Path 225" d="M344.558,108.641h-7.316a3.325,3.325,0,0,1-3.325-3.325V98Z" transform="translate(-242.223 -91.456)" fill="#e5bc62"/>
-                                                            <path id="Path_229" data-name="Path 229" d="M213.828,244H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z" transform="translate(-123.268 -220.882)" fill="#4c8a9d"/>
-                                                            <path id="Path_230" data-name="Path 230" d="M213.828,316H196.217a1.029,1.029,0,1,0,0,2.047h17.611a1.029,1.029,0,1,0,0-2.047Z" transform="translate(-123.268 -285.515)" fill="#4c8a9d"/>
-                                                            <path id="Path_231" data-name="Path 231" d="M213.828,388H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z" transform="translate(-123.268 -350.148)" fill="#4c8a9d"/>
-                                                            <path id="Path_232" data-name="Path 232" d="M103.357,17.135s0-.008,0-.012a.439.439,0,0,0-.005-.044,1.02,1.02,0,0,0-.292-.618L92.417,5.82a1.022,1.022,0,0,0-.681-.3l-.042,0H84.753c-9.381-.1-3.487.005-14.325,0H68.177a4.1,4.1,0,0,0-4.093,4.093v35.2A4.1,4.1,0,0,0,68.177,48.9H99.266a4.1,4.1,0,0,0,4.093-4.093V17.185C103.358,17.167,103.358,17.151,103.357,17.135ZM92.717,9.014l7.148,7.148H95.019a2.3,2.3,0,0,1-2.3-2.3V9.014Zm6.549,37.844H68.177a2.049,2.049,0,0,1-2.046-2.046V9.613a2.049,2.049,0,0,1,2.046-2.046H74.43c10.4.065,6.021.065,10.323,0H90.67V13.86a4.354,4.354,0,0,0,4.349,4.349h6.293v26.6A2.048,2.048,0,0,1,99.266,46.858Z" fill="#4c8a9d"/>
-                                                            </g>
-                                                        </svg> 
-                                                    </span>
-                                                    <input type="file" class="upload-file-input">
-                                                </div>
-                                                <span class="file-text">
-                                                    ფაილების ატვირთვა
-                                                </span>
-                                            </div>
-                                            <button>გაგზავნა</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
+          <div class="brc-cont">
+            <a href="#">მთავრი</a>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10.07"
+                height="17.14"
+                viewBox="0 0 10.07 17.14"
+              >
+                <g
+                  id="right-arrow_1_"
+                  data-name="right-arrow (1)"
+                  transform="translate(-101.478)"
+                >
+                  <g
+                    id="Group_213"
+                    data-name="Group 213"
+                    transform="translate(101.478)"
+                  >
+                    <path
+                      id="Path_140"
+                      data-name="Path 140"
+                      d="M111.274,7.9,103.647.274a.94.94,0,0,0-1.326,0l-.562.562a.939.939,0,0,0,0,1.326l6.405,6.405-6.412,6.412a.94.94,0,0,0,0,1.326l.562.561a.94.94,0,0,0,1.326,0l7.635-7.635a.946.946,0,0,0,0-1.331Z"
+                      transform="translate(-101.478 0)"
+                      fill="#29607e"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+            <a href="#">პროგრამები</a>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10.07"
+                height="17.14"
+                viewBox="0 0 10.07 17.14"
+              >
+                <g
+                  id="right-arrow_1_"
+                  data-name="right-arrow (1)"
+                  transform="translate(-101.478)"
+                >
+                  <g
+                    id="Group_213"
+                    data-name="Group 213"
+                    transform="translate(101.478)"
+                  >
+                    <path
+                      id="Path_140"
+                      data-name="Path 140"
+                      d="M111.274,7.9,103.647.274a.94.94,0,0,0-1.326,0l-.562.562a.939.939,0,0,0,0,1.326l6.405,6.405-6.412,6.412a.94.94,0,0,0,0,1.326l.562.561a.94.94,0,0,0,1.326,0l7.635-7.635a.946.946,0,0,0,0-1.331Z"
+                      transform="translate(-101.478 0)"
+                      fill="#29607e"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+            <a href="#" class="active-brc">აუ-პაირ პროგრამა</a>
+          </div>
         </div>
-    </section>
-    
+      </section>
 
-    <section>
+      <section>
+        <div class="vacancy-det-section programs-det-padd">
+          <div class="container">
+            <div class="vacancy-det-box">
+              <h1>აუ-პაირ პროგრამა</h1>
+              <div class="row row-resp-vacancy-det_01">
+                <div class="col-lg-6 col-12">
+                  <div class="buttons-box">
+                    <a href="#" class="box-00">
+                      <img src="assets/img/students-cap.svg" alt="st" />
+                      სტუდენტური დასაქმება
+                    </a>
+                    <a href="#" class="box-00">
+                      <img src="assets/img/calendar.png" alt="calendar" />
+                      ხანგრძლივობა 2-3 თვე
+                    </a>
+                  </div>
+                  <div class="requests-box">
+                    <h2>მოთხოვნები</h2>
+                    <ul class="request-ul">
+                      <li>
+                        <a href="#">გერმანული ენის ცოდნა B1-B2 დონეზე</a>
+                      </li>
+                      <li>
+                        <a href="#">უმაღლესი განათლება</a>
+                      </li>
+                      <li>
+                        <a href="#">2 წლიანი სამუშაო გამოცდილება</a>
+                      </li>
+                      <li>
+                        <a href="#">2 წლიანი სამუშაო გამოცდილება</a>
+                      </li>
+                      <li>
+                        <a href="#">უმაღლესი განათლება</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="text-det-vac">
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია
+                    მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი
+                    შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე
+                    მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე
+                    გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ
+                    ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი
+                    პერ სო ნა ლური საგამომცემლო პროგრამა და ვებგვერდი იყენებს
+                    Lorem Ipsum-ს, როგორც
+                  </div>
+                  <a href="#" class="file-download" download>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="39.274"
+                        height="43.43"
+                        viewBox="0 0 39.274 43.43"
+                      >
+                        <g id="attach" transform="translate(-64.084 -5.475)">
+                          <path
+                            id="Path_224"
+                            data-name="Path 224"
+                            d="M100.67,98H77.153a3.07,3.07,0,0,0-3.07,3.07v35.2a3.07,3.07,0,0,0,3.07,3.07h31.089a3.07,3.07,0,0,0,3.07-3.07V108.641Z"
+                            transform="translate(-8.976 -91.456)"
+                            fill="#fff"
+                          />
+                          <path
+                            id="Path_225"
+                            data-name="Path 225"
+                            d="M344.558,108.641h-7.316a3.325,3.325,0,0,1-3.325-3.325V98Z"
+                            transform="translate(-242.223 -91.456)"
+                            fill="#e5bc62"
+                          />
+                          <path
+                            id="Path_229"
+                            data-name="Path 229"
+                            d="M213.828,244H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z"
+                            transform="translate(-123.268 -220.882)"
+                            fill="#4c8a9d"
+                          />
+                          <path
+                            id="Path_230"
+                            data-name="Path 230"
+                            d="M213.828,316H196.217a1.029,1.029,0,1,0,0,2.047h17.611a1.029,1.029,0,1,0,0-2.047Z"
+                            transform="translate(-123.268 -285.515)"
+                            fill="#4c8a9d"
+                          />
+                          <path
+                            id="Path_231"
+                            data-name="Path 231"
+                            d="M213.828,388H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z"
+                            transform="translate(-123.268 -350.148)"
+                            fill="#4c8a9d"
+                          />
+                          <path
+                            id="Path_232"
+                            data-name="Path 232"
+                            d="M103.357,17.135s0-.008,0-.012a.439.439,0,0,0-.005-.044,1.02,1.02,0,0,0-.292-.618L92.417,5.82a1.022,1.022,0,0,0-.681-.3l-.042,0H84.753c-9.381-.1-3.487.005-14.325,0H68.177a4.1,4.1,0,0,0-4.093,4.093v35.2A4.1,4.1,0,0,0,68.177,48.9H99.266a4.1,4.1,0,0,0,4.093-4.093V17.185C103.358,17.167,103.358,17.151,103.357,17.135ZM92.717,9.014l7.148,7.148H95.019a2.3,2.3,0,0,1-2.3-2.3V9.014Zm6.549,37.844H68.177a2.049,2.049,0,0,1-2.046-2.046V9.613a2.049,2.049,0,0,1,2.046-2.046H74.43c10.4.065,6.021.065,10.323,0H90.67V13.86a4.354,4.354,0,0,0,4.349,4.349h6.293v26.6A2.048,2.048,0,0,1,99.266,46.858Z"
+                            fill="#4c8a9d"
+                          />
+                        </g>
+                      </svg>
+                    </span>
+                    ფაილების ჩამოტვირთვა
+                  </a>
+                  <div class="socials">
+                    <a href="#">
+                      <img src="assets/img/f-logo.png" alt="f-logo" />
+                    </a>
+                    <a href="#">
+                      <img src="assets/img/sh.png" alt="sh" />
+                    </a>
+                    <a href="#">
+                      <img src="assets/img/Image 5.png" alt="image" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="v-det-right">
+                    <div class="v-det-image">
+                      <img src="assets/img/v-det.png" alt="v-det" />
+                    </div>
+                    <div class="send-btn-active send-btn-active_2">
+                      გამოგვიგზავნე განაცხადი
+                    </div>
+                    <div class="sent-form-det sent-form-det-2">
+                      <form action="">
+                        <span class="close-btn close-btn-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24.116"
+                            height="25.068"
+                            viewBox="0 0 24.116 25.068"
+                          >
+                            <g
+                              id="Group_909"
+                              data-name="Group 909"
+                              transform="translate(3.534 3.534)"
+                            >
+                              <path
+                                id="Path_184"
+                                data-name="Path 184"
+                                d="M11634.921,4602.147l17.048,18"
+                                transform="translate(-11634.921 -4602.147)"
+                                fill="none"
+                                stroke="#fefcf7"
+                                stroke-linecap="round"
+                                stroke-width="5"
+                              />
+                              <path
+                                id="Path_185"
+                                data-name="Path 185"
+                                d="M0,0,18,17.047"
+                                transform="translate(0.001 18) rotate(-90)"
+                                fill="none"
+                                stroke="#fefcf7"
+                                stroke-linecap="round"
+                                stroke-width="5"
+                              />
+                            </g>
+                          </svg>
+                        </span>
+                        <h1>გამოგვიგზავნე განაცხადი</h1>
+                        <input type="text" placeholder="სახელი" />
+                        <input type="text" placeholder="გვარი" />
+                        <input type="phone" placeholder="მობილური" />
+                        <input type="email" placeholder="ელ-ფოსტა" />
+                        <textarea placeholder="შეტყობინება"></textarea>
+                        <div class="upload-files">
+                          <div class="files_10">
+                            <div class="upload-scale-box">
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="39.274"
+                                  height="43.43"
+                                  viewBox="0 0 39.274 43.43"
+                                >
+                                  <g
+                                    id="attach"
+                                    transform="translate(-64.084 -5.475)"
+                                  >
+                                    <path
+                                      id="Path_224"
+                                      data-name="Path 224"
+                                      d="M100.67,98H77.153a3.07,3.07,0,0,0-3.07,3.07v35.2a3.07,3.07,0,0,0,3.07,3.07h31.089a3.07,3.07,0,0,0,3.07-3.07V108.641Z"
+                                      transform="translate(-8.976 -91.456)"
+                                      fill="#fff"
+                                    />
+                                    <path
+                                      id="Path_225"
+                                      data-name="Path 225"
+                                      d="M344.558,108.641h-7.316a3.325,3.325,0,0,1-3.325-3.325V98Z"
+                                      transform="translate(-242.223 -91.456)"
+                                      fill="#e5bc62"
+                                    />
+                                    <path
+                                      id="Path_229"
+                                      data-name="Path 229"
+                                      d="M213.828,244H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z"
+                                      transform="translate(-123.268 -220.882)"
+                                      fill="#4c8a9d"
+                                    />
+                                    <path
+                                      id="Path_230"
+                                      data-name="Path 230"
+                                      d="M213.828,316H196.217a1.029,1.029,0,1,0,0,2.047h17.611a1.029,1.029,0,1,0,0-2.047Z"
+                                      transform="translate(-123.268 -285.515)"
+                                      fill="#4c8a9d"
+                                    />
+                                    <path
+                                      id="Path_231"
+                                      data-name="Path 231"
+                                      d="M213.828,388H196.217a1.029,1.029,0,1,0,0,2.046h17.611a1.029,1.029,0,1,0,0-2.046Z"
+                                      transform="translate(-123.268 -350.148)"
+                                      fill="#4c8a9d"
+                                    />
+                                    <path
+                                      id="Path_232"
+                                      data-name="Path 232"
+                                      d="M103.357,17.135s0-.008,0-.012a.439.439,0,0,0-.005-.044,1.02,1.02,0,0,0-.292-.618L92.417,5.82a1.022,1.022,0,0,0-.681-.3l-.042,0H84.753c-9.381-.1-3.487.005-14.325,0H68.177a4.1,4.1,0,0,0-4.093,4.093v35.2A4.1,4.1,0,0,0,68.177,48.9H99.266a4.1,4.1,0,0,0,4.093-4.093V17.185C103.358,17.167,103.358,17.151,103.357,17.135ZM92.717,9.014l7.148,7.148H95.019a2.3,2.3,0,0,1-2.3-2.3V9.014Zm6.549,37.844H68.177a2.049,2.049,0,0,1-2.046-2.046V9.613a2.049,2.049,0,0,1,2.046-2.046H74.43c10.4.065,6.021.065,10.323,0H90.67V13.86a4.354,4.354,0,0,0,4.349,4.349h6.293v26.6A2.048,2.048,0,0,1,99.266,46.858Z"
+                                      fill="#4c8a9d"
+                                    />
+                                  </g>
+                                </svg>
+                              </span>
+                              <input type="file" class="upload-file-input" />
+                            </div>
+                            <span class="file-text"> ფაილების ატვირთვა </span>
+                          </div>
+                          <button>გაგზავნა</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <div class="programs-section programs-section_01">
-            <div class="important-title">
-                <img src="assets/img/title-img.png" alt="title-img">
-                <h1>პროგრამები</h1>
-            </div>
-            <div class="container">
-                <div class="programs-box">
-                    <a href="#" class="program-item">
-                        <div class="p-item" style="background-image: url('./assets/img/programs1.png')"></div>
-                        <div class="program-text-box">
-                            <h1 class="hover-title">აუ - პაირ</h1>
-                            <div class="program-text"> 
-                                <div class="p-text-icon">
-                                    <img src="assets/img/home-svg.svg" alt="home">
-                                </div>
-                                <h2>აუ - პაირ</h2>
-                                <div class="text">
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                    ჩვენვითვალისწინებთ თქვენს სურვილებს. 
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                </div>
-                                <span>
-                                    <img src="assets/img/dots.svg" alt="dots">
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="program-item">
-                        <div class="p-item" style="background-image: url('./assets/img/programs2.png')"></div>
-                        <div class="program-text-box">
-                            <h1 class="hover-title">სტუდენტური
-                                დასაქმება</h1>
-                            <div class="program-text"> 
-                                <div class="p-text-icon">
-                                    <img src="assets/img/home-svg.svg" alt="home">
-                                </div>
-                                <h2>სტუდენტური
-                                    დასაქმება</h2>
-                                <div class="text">
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                    ჩვენვითვალისწინებთ თქვენს სურვილებს. 
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                </div>
-                                <span>
-                                    <img src="assets/img/dots.svg" alt="dots">
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="program-item">
-                        <div class="p-item" style="background-image: url('./assets/img/programs3.png')"></div>
-                        <div class="program-text-box">
-                            <h1 class="hover-title">განათლება</h1>
-                            <div class="program-text"> 
-                                <div class="p-text-icon">
-                                    <img src="assets/img/home-svg.svg" alt="home">
-                                </div>
-                                <h2>განათლება</h2>
-                                <div class="text">
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                    ჩვენვითვალისწინებთ თქვენს სურვილებს. 
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                </div>
-                                <span>
-                                    <img src="assets/img/dots.svg" alt="dots">
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="program-item">
-                        <div class="p-item" style="background-image: url('./assets/img/programs1.png')"></div>
-                        <div class="program-text-box">
-                            <h1 class="hover-title">ჩვენ
-                                შესახებ</h1>
-                            <div class="program-text"> 
-                                <div class="p-text-icon">
-                                    <img src="assets/img/home-svg.svg" alt="home">
-                                </div>
-                                <h2>ჩვენ
-                                    შესახებ</h2>
-                                <div class="text">
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                    ჩვენვითვალისწინებთ თქვენს სურვილებს. 
-                                    Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
-                                </div>
-                                <span>
-                                    <img src="assets/img/dots.svg" alt="dots">
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="overflow-x: hidden;" class="about-page-section_00 vacancypage-section_00">
-        <div class="home-slider-section" style="background-image: url('./assets/img/slider-backgound.png');">
-            <div class="slider-blur"></div>
-            <div class="home-slider">
-                <div class="container full-width-responsive-cont">
-                    <div class="slider_1">
-                        <a href="#" class="slider-item">
-                             <div class="slider-item-flex">
-                                <div class="slider-img">
-                                    <img src="assets/img/avatar.png" alt="avatar">
-                                </div>
-                                <div class="name_00_box">
-                                    <h1>გიორგი მაზნიაშვილი</h1>
-                                    <span>საქართველო, თბილისი</span>
-                                    <div class="rank_stars">
-                                        <span> 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                                <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                            </svg> 
-                                        </span>
-                                        <span> 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                                <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                            </svg> 
-                                        </span>
-                                        <span> 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                                <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                            </svg> 
-                                        </span>
-                                        <span> 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                                <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                            </svg> 
-                                        </span>
-                                        <span> 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                                <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                            </svg> 
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    Geh Weg არის შუამავალი კომპანია, 
-                                    რომელიც გეხმარებათ გერმანიაში 
-                                    სხვადსხვა პროგრამით დასაქმებაში. 
-                                    ჩვენვითვალისწინებთ თქვენს.
-                                </div>
-                                <div class="see-all">
-                                    <span>იხილეთ სრულად</span>
-                                </div>
-                             </div>
-                        </a>
-                        <a href="#" class="slider-item">
-                            <div class="slider-item-flex">
-                               <div class="slider-img">
-                                   <img src="assets/img/avatar2.png" alt="avatar">
-                               </div>
-                               <div class="name_00_box">
-                                   <h1>გიორგი მაზნიაშვილი</h1>
-                                   <span>საქართველო, თბილისი</span>
-                                   <div class="rank_stars">
-                                       <span> 
-                                           <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                               <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                           </svg> 
-                                       </span>
-                                       <span> 
-                                           <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                               <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                           </svg> 
-                                       </span>
-                                       <span> 
-                                           <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                               <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                           </svg> 
-                                       </span>
-                                       <span> 
-                                           <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                               <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                           </svg> 
-                                       </span>
-                                       <span> 
-                                           <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                               <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                           </svg> 
-                                       </span>
-                                   </div>
-                               </div>
-                               <div class="text">
-                                   Geh Weg არის შუამავალი კომპანია, 
-                                   რომელიც გეხმარებათ გერმანიაში 
-                                   სხვადსხვა პროგრამით დასაქმებაში. 
-                                   ჩვენვითვალისწინებთ თქვენს.
-                               </div>
-                               <div class="see-all">
-                                   <span>იხილეთ სრულად</span>
-                               </div>
-                            </div>
-                       </a>
-                       <a href="#" class="slider-item">
-                        <div class="slider-item-flex">
-                           <div class="slider-img">
-                               <img src="assets/img/avatar.png" alt="avatar">
-                           </div>
-                           <div class="name_00_box">
-                               <h1>გიორგი მაზნიაშვილი</h1>
-                               <span>საქართველო, თბილისი</span>
-                               <div class="rank_stars">
-                                   <span> 
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                           <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                       </svg> 
-                                   </span>
-                                   <span> 
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                           <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                       </svg> 
-                                   </span>
-                                   <span> 
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                           <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                       </svg> 
-                                   </span>
-                                   <span> 
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                           <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                       </svg> 
-                                   </span>
-                                   <span> 
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                           <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                       </svg> 
-                                   </span>
-                               </div>
-                           </div>
-                           <div class="text">
-                               Geh Weg არის შუამავალი კომპანია, 
-                               რომელიც გეხმარებათ გერმანიაში 
-                               სხვადსხვა პროგრამით დასაქმებაში. 
-                               ჩვენვითვალისწინებთ თქვენს.
-                           </div>
-                           <div class="see-all">
-                               <span>იხილეთ სრულად</span>
-                           </div>
-                        </div>
-                       </a>
-                       <a href="#" class="slider-item">
-                            <div class="slider-item-flex">
-                            <div class="slider-img">
-                                <img src="assets/img/avatar.png" alt="avatar">
-                            </div>
-                            <div class="name_00_box">
-                                <h1>გიორგი მაზნიაშვილი</h1>
-                                <span>საქართველო, თბილისი</span>
-                                <div class="rank_stars">
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                Geh Weg არის შუამავალი კომპანია, 
-                                რომელიც გეხმარებათ გერმანიაში 
-                                სხვადსხვა პროგრამით დასაქმებაში. 
-                                ჩვენვითვალისწინებთ თქვენს.
-                            </div>
-                            <div class="see-all">
-                                <span>იხილეთ სრულად</span>
-                            </div>
-                            </div>
-                       </a>
-                       <a href="#" class="slider-item">
-                        <div class="slider-item-flex">
-                        <div class="slider-img">
-                            <img src="assets/img/avatar2.png" alt="avatar">
-                        </div>
-                        <div class="name_00_box">
-                            <h1>გიორგი მაზნიაშვილი</h1>
-                            <span>საქართველო, თბილისი</span>
-                            <div class="rank_stars">
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                        <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                    </svg> 
-                                </span>
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                        <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                    </svg> 
-                                </span>
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                        <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                    </svg> 
-                                </span>
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                        <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                    </svg> 
-                                </span>
-                                <span> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                        <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                    </svg> 
-                                </span>
-                            </div>
-                        </div>
-                        <div class="text">
-                            Geh Weg არის შუამავალი კომპანია, 
-                            რომელიც გეხმარებათ გერმანიაში 
-                            სხვადსხვა პროგრამით დასაქმებაში. 
-                            ჩვენვითვალისწინებთ თქვენს.
-                        </div>
-                        <div class="see-all">
-                            <span>იხილეთ სრულად</span>
-                        </div>
-                        </div>
-                        </a>
-                        <a href="#" class="slider-item">
-                            <div class="slider-item-flex">
-                            <div class="slider-img">
-                                <img src="assets/img/avatar.png" alt="avatar">
-                            </div>
-                            <div class="name_00_box">
-                                <h1>გიორგი მაზნიაშვილი</h1>
-                                <span>საქართველო, თბილისი</span>
-                                <div class="rank_stars">
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                    <span> 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="21.667" height="20" viewBox="0 0 21.667 20">
-                                            <path id="Polygon_11" data-name="Polygon 11" d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z" fill="#e5bc62"/>
-                                        </svg> 
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                Geh Weg არის შუამავალი კომპანია, 
-                                რომელიც გეხმარებათ გერმანიაში 
-                                სხვადსხვა პროგრამით დასაქმებაში. 
-                                ჩვენვითვალისწინებთ თქვენს.
-                            </div>
-                            <div class="see-all">
-                                <span>იხილეთ სრულად</span>
-                            </div>
-                            </div>
-                       </a>
+          <div class="important-title">
+            <img src="assets/img/title-img.png" alt="title-img" />
+            <h1>პროგრამები</h1>
+          </div>
+          <div class="container">
+            <div class="programs-box">
+              <a href="#" class="program-item">
+                <div
+                  class="p-item"
+                  style="background-image: url('./assets/img/programs1.png')"
+                ></div>
+                <div class="program-text-box">
+                  <h1 class="hover-title">აუ - პაირ</h1>
+                  <div class="program-text">
+                    <div class="p-text-icon">
+                      <img src="assets/img/home-svg.svg" alt="home" />
                     </div>
+                    <h2>აუ - პაირ</h2>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს სურვილებს. Geh Weg არის
+                      შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში
+                      სხვადსხვა პროგრამით დასაქმებაში.
+                    </div>
+                    <span>
+                      <img src="assets/img/dots.svg" alt="dots" />
+                    </span>
+                  </div>
                 </div>
+              </a>
+              <a href="#" class="program-item">
+                <div
+                  class="p-item"
+                  style="background-image: url('./assets/img/programs2.png')"
+                ></div>
+                <div class="program-text-box">
+                  <h1 class="hover-title">სტუდენტური დასაქმება</h1>
+                  <div class="program-text">
+                    <div class="p-text-icon">
+                      <img src="assets/img/home-svg.svg" alt="home" />
+                    </div>
+                    <h2>სტუდენტური დასაქმება</h2>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს სურვილებს. Geh Weg არის
+                      შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში
+                      სხვადსხვა პროგრამით დასაქმებაში.
+                    </div>
+                    <span>
+                      <img src="assets/img/dots.svg" alt="dots" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="program-item">
+                <div
+                  class="p-item"
+                  style="background-image: url('./assets/img/programs3.png')"
+                ></div>
+                <div class="program-text-box">
+                  <h1 class="hover-title">განათლება</h1>
+                  <div class="program-text">
+                    <div class="p-text-icon">
+                      <img src="assets/img/home-svg.svg" alt="home" />
+                    </div>
+                    <h2>განათლება</h2>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს სურვილებს. Geh Weg არის
+                      შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში
+                      სხვადსხვა პროგრამით დასაქმებაში.
+                    </div>
+                    <span>
+                      <img src="assets/img/dots.svg" alt="dots" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="program-item">
+                <div
+                  class="p-item"
+                  style="background-image: url('./assets/img/programs1.png')"
+                ></div>
+                <div class="program-text-box">
+                  <h1 class="hover-title">ჩვენ შესახებ</h1>
+                  <div class="program-text">
+                    <div class="p-text-icon">
+                      <img src="assets/img/home-svg.svg" alt="home" />
+                    </div>
+                    <h2>ჩვენ შესახებ</h2>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს სურვილებს. Geh Weg არის
+                      შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში
+                      სხვადსხვა პროგრამით დასაქმებაში.
+                    </div>
+                    <span>
+                      <img src="assets/img/dots.svg" alt="dots" />
+                    </span>
+                  </div>
+                </div>
+              </a>
             </div>
-            <div class="left-arrow">
-                <span> 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23.83" viewBox="0 0 14 23.83">
-                        <g id="right-arrow_1_" data-name="right-arrow (1)" transform="translate(115.478 23.83) rotate(-180)">
-                          <g id="Group_213" data-name="Group 213" transform="translate(101.478)">
-                            <path id="Path_140" data-name="Path 140" d="M115.1,10.985l-10.6-10.6a1.306,1.306,0,0,0-1.844,0l-.781.781a1.305,1.305,0,0,0,0,1.844l8.905,8.905-8.915,8.915a1.307,1.307,0,0,0,0,1.844l.781.781a1.306,1.306,0,0,0,1.844,0L115.1,12.835a1.316,1.316,0,0,0,0-1.85Z" transform="translate(-101.478 0)" fill="#e5bc62"/>
-                          </g>
-                        </g>
-                    </svg> 
-                </span>
-            </div>
-            <div class="right-arrow">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23.83" viewBox="0 0 14 23.83">
-                        <g id="right-arrow_1_" data-name="right-arrow (1)" transform="translate(115.478 23.83) rotate(-180)">
-                          <g id="Group_213" data-name="Group 213" transform="translate(101.478)">
-                            <path id="Path_140" data-name="Path 140" d="M115.1,10.985l-10.6-10.6a1.306,1.306,0,0,0-1.844,0l-.781.781a1.305,1.305,0,0,0,0,1.844l8.905,8.905-8.915,8.915a1.307,1.307,0,0,0,0,1.844l.781.781a1.306,1.306,0,0,0,1.844,0L115.1,12.835a1.316,1.316,0,0,0,0-1.85Z" transform="translate(-101.478 0)" fill="#e5bc62"/>
-                          </g>
-                        </g>
-                    </svg> 
-                </span>
-            </div>
+          </div>
         </div>
-    </section>
-    
-   </main>
+      </section>
 
+      <section
+        style="overflow-x: hidden"
+        class="about-page-section_00 vacancypage-section_00"
+      >
+        <div
+          class="home-slider-section"
+          style="background-image: url('./assets/img/slider-backgound.png')"
+        >
+          <div class="slider-blur"></div>
+          <div class="home-slider">
+            <div class="container full-width-responsive-cont">
+              <div class="slider_1">
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar2.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar2.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="slider-item">
+                  <div class="slider-item-flex">
+                    <div class="slider-img">
+                      <img src="assets/img/avatar.png" alt="avatar" />
+                    </div>
+                    <div class="name_00_box">
+                      <h1>გიორგი მაზნიაშვილი</h1>
+                      <span>საქართველო, თბილისი</span>
+                      <div class="rank_stars">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.667"
+                            height="20"
+                            viewBox="0 0 21.667 20"
+                          >
+                            <path
+                              id="Polygon_11"
+                              data-name="Polygon 11"
+                              d="M9.916,2.119a1,1,0,0,1,1.835,0l1.877,4.334a1,1,0,0,0,.836.6l4.773.389A1,1,0,0,1,19.8,9.2l-3.582,3a1,1,0,0,0-.33,1l1.088,4.5a1,1,0,0,1-1.479,1.1L11.34,16.362a1,1,0,0,0-1.013,0L6.171,18.805a1,1,0,0,1-1.479-1.1l1.088-4.5a1,1,0,0,0-.33-1l-3.582-3a1,1,0,0,1,.561-1.763L7.2,7.052a1,1,0,0,0,.836-.6Z"
+                              fill="#e5bc62"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="text">
+                      Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ
+                      გერმანიაში სხვადსხვა პროგრამით დასაქმებაში.
+                      ჩვენვითვალისწინებთ თქვენს.
+                    </div>
+                    <div class="see-all">
+                      <span>იხილეთ სრულად</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="23.83"
+                viewBox="0 0 14 23.83"
+              >
+                <g
+                  id="right-arrow_1_"
+                  data-name="right-arrow (1)"
+                  transform="translate(115.478 23.83) rotate(-180)"
+                >
+                  <g
+                    id="Group_213"
+                    data-name="Group 213"
+                    transform="translate(101.478)"
+                  >
+                    <path
+                      id="Path_140"
+                      data-name="Path 140"
+                      d="M115.1,10.985l-10.6-10.6a1.306,1.306,0,0,0-1.844,0l-.781.781a1.305,1.305,0,0,0,0,1.844l8.905,8.905-8.915,8.915a1.307,1.307,0,0,0,0,1.844l.781.781a1.306,1.306,0,0,0,1.844,0L115.1,12.835a1.316,1.316,0,0,0,0-1.85Z"
+                      transform="translate(-101.478 0)"
+                      fill="#e5bc62"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div class="right-arrow">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="23.83"
+                viewBox="0 0 14 23.83"
+              >
+                <g
+                  id="right-arrow_1_"
+                  data-name="right-arrow (1)"
+                  transform="translate(115.478 23.83) rotate(-180)"
+                >
+                  <g
+                    id="Group_213"
+                    data-name="Group 213"
+                    transform="translate(101.478)"
+                  >
+                    <path
+                      id="Path_140"
+                      data-name="Path 140"
+                      d="M115.1,10.985l-10.6-10.6a1.306,1.306,0,0,0-1.844,0l-.781.781a1.305,1.305,0,0,0,0,1.844l8.905,8.905-8.915,8.915a1.307,1.307,0,0,0,0,1.844l.781.781a1.306,1.306,0,0,0,1.844,0L115.1,12.835a1.316,1.316,0,0,0,0-1.85Z"
+                      transform="translate(-101.478 0)"
+                      fill="#e5bc62"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
 
-   <footer>
-    <div class="footer">
+    <footer>
+      <div class="footer">
         <div class="container">
-            <div class="footer-box">
-                <div class="col-lg-4 col-md-4 c-l-sm-6 col-6">
-                    <div class="footer-logo-box">
-                        <a href="#" class="f-logo">
-                            <img src="assets/img/footer-logo.svg" alt="footer-logo">
-                        </a>
-                        <div class="text">
-                            Geh Weg არის შუამავალი კომპანია, 
-                            რომელიც გეხმარებათ გერმანიაში სხვადსხვა პროგრამით დასაქმებაში. 
-                            ვენვითვალისწინებთ თქვენს სურვილებს. 
-                        </div>
-                    </div>
+          <div class="footer-box">
+            <div class="col-lg-4 col-md-4 c-l-sm-6 col-6">
+              <div class="footer-logo-box">
+                <a href="#" class="f-logo">
+                  <img src="assets/img/footer-logo.svg" alt="footer-logo" />
+                </a>
+                <div class="text">
+                  Geh Weg არის შუამავალი კომპანია, რომელიც გეხმარებათ გერმანიაში
+                  სხვადსხვა პროგრამით დასაქმებაში. ვენვითვალისწინებთ თქვენს
+                  სურვილებს.
                 </div>
-                <div class="col-lg-4 col-md-4 c-l-sm-6 col-6">
-                    <div class="footer-contact-info">
-                        <h1>საკონტაქტო ინფორმაცია</h1>
-                        <ul>
-                            <li>
-                                <a href="#">კიტა აბაშიძის ქუჩა, თბილისი, 0167</a>
-                            </li>
-                            <li>
-                                <a href="#">+995 322 697840</a>
-                            </li>
-                            <li>
-                                <a href="#">+995 511 16 50 48</a>
-                            </li>
-                            <li>
-                                <a href="#">info@gehweg.ge</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 c-l-sm-6 col-6">
-                    <div class="footer-links">
-                        <ul>
-                            <li>
-                                <a href="#">მთავარი</a>
-                            </li>
-                            <li>
-                                <a href="#">ჩვენს შესახებ</a>
-                            </li>
-                            <li>
-                                <a href="#">ვაკანსიები</a>
-                            </li>
-                            <li>
-                                <a href="#">პროგრამები</a>
-                            </li>
-                            <li>
-                                <a href="#">კონტაქტი</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 c-l-sm-6 col-6">
-                    <div class="footer-message-box">
-                        <div class="footer-socails">
-                            <a href="#" class="f-soc-icon">
-                                <span class="icon-mail"></span>
-                            </a>
-                            <a href="#" class="f-soc-icon">
-                                <span class="icon-fb"></span>
-                            </a>
-                            <a href="#" class="f-soc-icon">
-                                <span class="icon-instagram"></span>
-                            </a>
-                        </div>
-                        <div class="text">
-                            Geh Weg არის შუამავალი კომპანია, რომელიც 
-                        </div>
-                        <a href="#" class="footer-a">
-                            მოგვწერეთ
-                        </a>
-                    </div>
-                </div> 
+              </div>
             </div>
+            <div class="col-lg-4 col-md-4 c-l-sm-6 col-6">
+              <div class="footer-contact-info">
+                <h1>საკონტაქტო ინფორმაცია</h1>
+                <ul>
+                  <li>
+                    <a href="#">კიტა აბაშიძის ქუჩა, თბილისი, 0167</a>
+                  </li>
+                  <li>
+                    <a href="#">+995 322 697840</a>
+                  </li>
+                  <li>
+                    <a href="#">+995 511 16 50 48</a>
+                  </li>
+                  <li>
+                    <a href="#">info@gehweg.ge</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 c-l-sm-6 col-6">
+              <div class="footer-links">
+                <ul>
+                  <li>
+                    <a href="#">მთავარი</a>
+                  </li>
+                  <li>
+                    <a href="#">ჩვენს შესახებ</a>
+                  </li>
+                  <li>
+                    <a href="#">ვაკანსიები</a>
+                  </li>
+                  <li>
+                    <a href="#">პროგრამები</a>
+                  </li>
+                  <li>
+                    <a href="#">კონტაქტი</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 c-l-sm-6 col-6">
+              <div class="footer-message-box">
+                <div class="footer-socails">
+                  <a href="#" class="f-soc-icon">
+                    <span class="icon-mail"></span>
+                  </a>
+                  <a href="#" class="f-soc-icon">
+                    <span class="icon-fb"></span>
+                  </a>
+                  <a href="#" class="f-soc-icon">
+                    <span class="icon-instagram"></span>
+                  </a>
+                </div>
+                <div class="text">Geh Weg არის შუამავალი კომპანია, რომელიც</div>
+                <a href="#" class="footer-a"> მოგვწერეთ </a>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-     <div class="create-box">
+      </div>
+      <div class="create-box">
         <div class="container create-cont">
-            <div class="create">
-                <span>ყველა უფლება დაცულია</span>
-                <a href="#">შექმნილია იდეა დიზაინ ჯგუფის მიერ</a>
-            </div>
-        </div> 
-     </div>
-   </footer>
+          <div class="create">
+            <span>ყველა უფლება დაცულია</span>
+            <a href="#">შექმნილია იდეა დიზაინ ჯგუფის მიერ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
