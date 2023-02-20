@@ -75,8 +75,7 @@ $(window).scroll(() => {
         $( ".header-1-box" ).addClass('scroll-header-class');
     }else{
         $( ".header-1-box" ).removeClass('scroll-header-class');
-    }
-    
+    } 
     if(scrollY >= scrollNum){ 
       $( ".header-box" ).css('top', '0px');
     }else{

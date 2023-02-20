@@ -596,6 +596,7 @@
     .vacancy-section { 
         height: 690px;
     }
+    
     .vacancy-blur { 
         height: 690px;
     }
@@ -608,7 +609,7 @@
     .vacancy-item span {
         font-size: 18px;
         padding-right: 0;
-    }
+    } 
      .hidden-responsive-footer{
         display: none;
      }
@@ -979,11 +980,18 @@
     .pos-rel{
         display: none;
     }
-    .vacancy-section,  .vacancy-blur{
-        height: 690px;
+    .vacancy-section{
+        padding-bottom: 70px;
+        padding-top: 50px; 
+        height: initial;
         background-size: cover;
         background-position: center;
     }    
+    .vacancy-blur{
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
     .vacancy-type-list{
         padding-right: initial;
     }
@@ -994,7 +1002,9 @@
         padding-right: 40px;
     }
     .vacancy-cont {
-        top: 50px;
+        position: relative;
+        z-index: 10;
+        top: 0;
     }
     .resp-link-show{
         display: flex;
@@ -1085,6 +1095,9 @@
         margin-top: 50px;
     }
      /* About Page */
+     .about-page-section_00{
+        padding-top: 50px;
+     }
      .about-page-title {
         display: none;
     }
@@ -1176,14 +1189,10 @@
         line-height: 22px;
         font-size: 16px;
         max-width: calc(100% - 77px);
-    }
-    .vacancy-section {
-        height: 580px; 
-    }
-    .vacancy-section, .vacancy-blur {
-        height: 580px;
-        background-size: cover;
-        background-position: center;
+    } 
+    .vacancy-section{ 
+        padding-bottom: 40px;
+        padding-top: 40px;  
     }
     .see-all-link a{
         font-size: 14px;
