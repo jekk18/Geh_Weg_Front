@@ -1558,7 +1558,7 @@
 }
 .request-ul li{
   width: calc((100% / 2) - 10px);
-  max-height: 46px;
+  max-height: 54px;
   overflow: hidden; 
   position: relative;
   padding-left: 36px;
@@ -1571,8 +1571,7 @@
   border-radius: 50%;
   background: #AFAFAF;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 6px;
   transition: 0.3s;
 }
 .request-ul li:hover::before{
