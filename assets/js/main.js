@@ -121,10 +121,3 @@ $(document).ready(()=> {
     $('.file-text').html(inpSplit[index]);
   });
 });
-
-
-
-
- 
-
- 

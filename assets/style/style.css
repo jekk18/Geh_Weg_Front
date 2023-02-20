@@ -787,10 +787,9 @@
   position: relative;
   /* width: 100%; */
 }
-.see-all-link{
-  position: absolute;
-  bottom: -62px;
-  right: 12px;
+.see-all-link{ 
+  margin-top: 23px;
+  text-align: end;
 }
 .see-all-link a{
   font-size: 16px;
