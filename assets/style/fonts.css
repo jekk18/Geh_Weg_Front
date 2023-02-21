@@ -13,6 +13,26 @@
          url('../../assets/font/BPG DejaVu Sans Caps Book.ttf')  format('truetype');
   }
 
+  
+  @font-face {
+    font-family: 'BPG DejaVu Sans Caps Web';
+    src: url('../../assets/font/BPGDejaVuSansCapsWeb.woff2') format('woff2'),
+        url('../../assets/font/BPGDejaVuSansCapsWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPG DejaVu Sans';
+    src: url('../../assets/font/BPGDejaVuSans.woff2') format('woff2'),
+        url('../../assets/font/BPGDejaVuSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
   @font-face {
     font-family: 'icomoon';
