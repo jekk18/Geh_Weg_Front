@@ -54,7 +54,28 @@
    z-index: 999;
    height: 130px;
    transition: 0.3s;
+   animation: headerAnime 0.6s ease;
  }
+ @media(min-width:992px){
+  @keyframes headerAnime{
+    0%{
+      top: -150%;
+    }
+    100%{
+      top: 0;
+    }
+  }
+  @keyframes animHeader02{
+    0%{
+      top: -150%;
+    }
+    100%{
+      top: 35px;
+    }
+   }
+  
+ }
+   
  .scroll-header-class{
    background: rgba(92, 170, 198, 0.73);
  }
@@ -248,6 +269,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   overflow-x: hidden;
  }
  .home-banner-box{ 
    width: 92.3%;
@@ -451,6 +473,9 @@
  /* programs section */
 
  /* Footer */
+ .footer{
+   overflow-x: hidden; 
+ }
  .footer-row-resp{
   width: 100%;
   justify-content: space-between;
@@ -626,6 +651,7 @@
   background-size: 1074px;
   background-repeat: no-repeat;
   background-position: left;
+  overflow-x: hidden;
 }
 .vacancy-blur{
   position: absolute;
@@ -976,6 +1002,7 @@
 
 /* About us section */
   .home-about-us-section{
+    overflow-x: hidden;
     padding-top: 50px;
     padding-bottom: 100px;
     background: rgba(248, 248, 248, 0.86);
@@ -1163,7 +1190,9 @@
   background: rgba(72, 133, 152, 0.8); 
   top: 35px;
   transition: 0.3s; 
+  animation: animHeader02 0.8s ease
 }
+ 
 .header_01{
   padding: 0;
   height: 130px;
@@ -1340,11 +1369,15 @@
 }
 /* Pagination */
 /* Contact */
+.contact-section{
+  overflow-x: hidden;
+}
 .contact-box{
   width: 100%;
   display: flex;
   align-items: center;
   background: #E5BC62; 
+  overflow-x: hidden;
 }
 .left-contact{
   width: calc(100% / 2); 
@@ -1495,6 +1528,7 @@
 /* Vacancy det */
 .vacancy-det-section{
   padding-bottom: 55px;
+  overflow-x: hidden;
 }
 .vacancy-det-box{
   width: 100%;

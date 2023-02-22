@@ -529,7 +529,7 @@
     /* Vacancy-det */
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px){ 
     ._banner-img img{
         object-fit: cover;
     }
