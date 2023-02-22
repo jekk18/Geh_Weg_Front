@@ -123,9 +123,15 @@ $(document).ready(()=> {
 });
 
 
+ 
 
-if($(window).width() >= 992){
-   
+if($(window).width() >= 992){ 
+    
+  setTimeout(()=>{
+    $('html').css('opacity', '1');  
+  },10)
+
+  
   ScrollReveal().reveal('.home-banner-nav', {
     delay: 400,
     duration: 600,
