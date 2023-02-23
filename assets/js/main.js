@@ -363,4 +363,24 @@ if($(window).width() >= 992){
     distance: '0',     
     reset: false,
   });
+  ScrollReveal().reveal('.search-input-box', {
+    delay: 500,
+    duration: 500,
+    distance: '30px',
+    origin: 'bottom',     
+    reset: false,
+  });
+  ScrollReveal().reveal('.result-item', {
+    delay: 500,
+    duration: 500,
+    distance: '30px',
+    origin: 'bottom',     
+    reset: false,
+  });
+  ScrollReveal().reveal('.pagintaion_0', {
+    delay: 500,
+    duration: 500,
+    distance: '0',      
+    reset: false,
+  });
 }
