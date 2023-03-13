@@ -1,3 +1,8 @@
+ setTimeout(()=>{
+    $('html').css('opacity', '1');  
+  },10)
+
+
 $(document).ready(function(){
     $('.slider_1').slick({  
         slidesToShow: 4,
@@ -127,10 +132,7 @@ $(document).ready(()=> {
 
 if($(window).width() >= 992){ 
     
-  setTimeout(()=>{
-    $('html').css('opacity', '1');  
-  },10)
-
+  
   
   ScrollReveal().reveal('.home-banner-nav', {
     delay: 400,
